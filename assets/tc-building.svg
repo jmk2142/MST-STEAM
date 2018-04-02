@@ -1,0 +1,411 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 200 1024 768" width="1800">
+  <defs>
+    <style>
+    .cls-1{isolation:isolate;}
+    .cls-2{fill:#ba6c4a;}
+    .cls-3{fill:#a29f9d;}
+    .cls-4{fill:#fff;opacity:0.5;}
+    .cls-4,
+    .cls-8{mix-blend-mode:soft-light;}
+    .cls-5{fill:#adadad;}
+    .cls-6{fill:#a05638;}
+    .cls-7{fill:#a03d22;}
+    .cls-8{opacity:0.3;}
+    .cls-9{fill:#6d1e08;}
+    .cls-10{fill:#c07049;}
+    .cls-11{fill:#c95d3b;mix-blend-mode:darken;}
+    </style>
+  </defs>
+  <title>TC building</title>
+  <g class="cls-1">
+    <g id="Layer_1" data-name="Layer 1">
+      <rect class="cls-2" x="669.99" y="408.1" width="19.52" height="37.75"/>
+      <rect class="cls-2" x="476.48" y="542.73" width="20.16" height="27.58"/>
+      <rect class="cls-2" x="256.97" y="508.19" width="20.16" height="24.06"/>
+      <rect class="cls-2" x="383.71" y="594.86" width="228.35" height="174.68"/>
+      <polygon class="cls-3" points="592.33 595.13 383.71 594.86 404.73 570.1 571 570.1 592.33 595.13"/>
+      <polygon class="cls-2" points="411.76 559.39 383.71 595.13 439.81 595.13 411.76 559.39"/>
+      <polygon class="cls-3" points="383.39 594.85 198.53 594.85 221.35 526.35 366.64 526.35 383.39 594.85"/>
+      <polygon class="cls-2" points="231.11 524.07 208.24 556.28 253.99 556.28 231.11 524.07"/>
+      <rect class="cls-2" x="208.24" y="556.31" width="45.74" height="38.54"/>
+      <polygon class="cls-2" points="291.63 524.07 267.05 556.28 316.2 556.28 291.63 524.07"/>
+      <rect class="cls-2" x="267.05" y="556.31" width="49.15" height="38.54"/>
+      <polygon class="cls-2" points="352.17 524.09 329.98 556.31 374.37 556.31 352.17 524.09"/>
+      <rect class="cls-2" x="329.98" y="556.31" width="44.39" height="38.57"/>
+      <rect class="cls-2" x="36.23" y="594.86" width="162.23" height="174.68"/>
+      <rect class="cls-2" x="592.86" y="445.85" width="96.64" height="323.69"/>
+      <rect class="cls-2" x="674.26" y="583.31" width="314.64" height="186.23"/>
+      <path class="cls-4" d="M760.31,639.21c0-5.45-6.86-9.87-15.31-9.87s-15.31,4.42-15.31,9.87a5.63,5.63,0,0,0,0,.58h-.51v66.14h31.1V639.79h0A5.63,5.63,0,0,0,760.31,639.21Z"/>
+      <path class="cls-4" d="M803.85,639.21c0-5.45-6.86-9.87-15.31-9.87s-15.31,4.42-15.31,9.87a5.63,5.63,0,0,0,0,.58h-.51v66.14h31.1V639.79h0A5.63,5.63,0,0,0,803.85,639.21Z"/>
+      <path class="cls-4" d="M847.13,639.21c0-5.45-6.86-9.87-15.31-9.87s-15.31,4.42-15.31,9.87a5.63,5.63,0,0,0,0,.58H816v66.14h31.1V639.79h0A5.63,5.63,0,0,0,847.13,639.21Z"/>
+      <path class="cls-4" d="M890.92,639.21c0-5.45-6.85-9.87-15.3-9.87s-15.31,4.42-15.31,9.87a5.63,5.63,0,0,0,0,.58h-.51v66.14h31.09V639.79h0C890.91,639.6,890.92,639.4,890.92,639.21Z"/>
+      <path class="cls-4" d="M934.46,639.21c0-5.45-6.85-9.87-15.3-9.87s-15.31,4.42-15.31,9.87c0,.19,0,.39,0,.58h-.5v66.14h31.09V639.79h0C934.45,639.6,934.46,639.4,934.46,639.21Z"/>
+      <polygon class="cls-3" points="679.9 381 669.96 408.37 689.83 408.37 679.9 381"/>
+      <polygon class="cls-3" points="486.56 518.47 476.49 542.73 496.64 542.73 486.56 518.47"/>
+      <rect class="cls-3" x="689.5" y="556.9" width="277.01" height="26.4"/>
+      <rect class="cls-2" x="198.54" y="594.86" width="185.18" height="174.68"/>
+      <rect class="cls-5" x="698.31" y="590.08" width="10.68" height="7.67"/>
+      <rect class="cls-5" x="732.47" y="590.08" width="7" height="7.67"/>
+      <rect class="cls-5" x="741.4" y="590.08" width="7" height="7.67"/>
+      <rect class="cls-5" x="750.32" y="590.08" width="7" height="7.67"/>
+      <rect class="cls-5" x="866.89" y="590.08" width="7" height="7.67"/>
+      <rect class="cls-5" x="875.82" y="590.08" width="7" height="7.67"/>
+      <rect class="cls-5" x="818.39" y="590.08" width="7" height="7.67"/>
+      <rect class="cls-5" x="827.32" y="590.08" width="7" height="7.67"/>
+      <rect class="cls-5" x="836.24" y="590.08" width="7" height="7.67"/>
+      <rect class="cls-5" x="905.72" y="590.08" width="7" height="7.67"/>
+      <rect class="cls-5" x="914.65" y="590.08" width="7" height="7.67"/>
+      <rect class="cls-5" x="923.58" y="590.08" width="7" height="7.67"/>
+      <rect class="cls-5" x="698.31" y="641.17" width="10.63" height="25.84"/>
+      <rect class="cls-5" x="698.31" y="678.49" width="10.63" height="21.36"/>
+      <rect class="cls-5" x="698.31" y="714.35" width="10.63" height="15.71"/>
+      <rect class="cls-5" x="445.43" y="603.4" width="21.36" height="21.36"/>
+      <rect class="cls-5" x="513" y="603.4" width="21.36" height="21.36"/>
+      <rect class="cls-5" x="482.99" y="603.4" width="10.68" height="21.36"/>
+      <rect class="cls-5" x="495.68" y="603.4" width="10.68" height="21.36"/>
+      <rect class="cls-5" x="541.9" y="603.4" width="13.11" height="21.36"/>
+      <rect class="cls-5" x="557.89" y="603.4" width="13.11" height="21.36"/>
+      <rect class="cls-5" x="574.84" y="603.4" width="13.11" height="21.36"/>
+      <rect class="cls-5" x="388.74" y="603.4" width="13.11" height="21.36"/>
+      <rect class="cls-5" x="404.73" y="603.4" width="13.11" height="21.36"/>
+      <rect class="cls-5" x="404.73" y="575.81" width="13.11" height="21.36"/>
+      <rect class="cls-5" x="421.67" y="603.4" width="13.11" height="21.36"/>
+      <rect class="cls-5" x="732.58" y="678.49" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="738.95" y="678.49" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="731.33" y="714.35" width="5.23" height="15.71"/>
+      <rect class="cls-5" x="737.71" y="714.35" width="5.23" height="15.71"/>
+      <rect class="cls-5" x="746.41" y="714.35" width="5.23" height="15.71"/>
+      <rect class="cls-5" x="752.79" y="714.35" width="5.23" height="15.71"/>
+      <rect class="cls-5" x="741.78" y="751.47" width="6.34" height="14.16"/>
+      <rect class="cls-5" x="732.58" y="751.47" width="6.34" height="14.16"/>
+      <path class="cls-5" d="M738.92,740.72c-3.63.87-6.07,2.34-6.07,3.22a.77.77,0,0,0,0,.15h-.29v6h6.34Z"/>
+      <path class="cls-5" d="M748.12,740.2a25.28,25.28,0,0,0-6.34,0v9.84h6.34Z"/>
+      <path class="cls-5" d="M757.32,743.71c-.43-.92-2.88-2.25-6.34-3v9.44h6.34Z"/>
+      <rect class="cls-5" x="750.98" y="751.47" width="6.34" height="14.16"/>
+      <rect class="cls-5" x="785.37" y="751.47" width="6.34" height="14.16"/>
+      <rect class="cls-5" x="776.17" y="751.47" width="6.34" height="14.16"/>
+      <path class="cls-5" d="M782.51,740.72c-3.63.87-6.07,2.34-6.07,3.22a.77.77,0,0,0,0,.15h-.29v6h6.34Z"/>
+      <path class="cls-5" d="M791.71,740.2a25.28,25.28,0,0,0-6.34,0v9.84h6.34Z"/>
+      <path class="cls-5" d="M800.91,743.71c-.43-.92-2.88-2.25-6.34-3v9.44h6.34Z"/>
+      <rect class="cls-5" x="794.57" y="751.47" width="6.34" height="14.16"/>
+      <rect class="cls-5" x="828.67" y="751.47" width="6.34" height="14.16"/>
+      <rect class="cls-5" x="819.47" y="751.47" width="6.34" height="14.16"/>
+      <path class="cls-5" d="M825.81,740.72c-3.63.87-6.07,2.34-6.07,3.22a.39.39,0,0,0,0,.15h-.29v6h6.34Z"/>
+      <path class="cls-5" d="M835,740.2a25.28,25.28,0,0,0-6.34,0v9.84H835Z"/>
+      <path class="cls-5" d="M844.21,743.71c-.43-.92-2.88-2.25-6.34-3v9.44h6.34Z"/>
+      <rect class="cls-5" x="837.87" y="751.47" width="6.34" height="14.16"/>
+      <rect class="cls-5" x="872.45" y="751.47" width="6.34" height="14.16"/>
+      <rect class="cls-5" x="863.25" y="751.47" width="6.34" height="14.16"/>
+      <path class="cls-5" d="M869.59,740.72c-3.63.87-6.08,2.34-6.08,3.22a.4.4,0,0,0,0,.15h-.29v6h6.34Z"/>
+      <path class="cls-5" d="M878.79,740.2a26.07,26.07,0,0,0-3-.18,25.74,25.74,0,0,0-3.36.22v9.84h6.34Z"/>
+      <path class="cls-5" d="M888,743.71c-.43-.92-2.89-2.25-6.34-3v9.44H888Z"/>
+      <rect class="cls-5" x="881.65" y="751.47" width="6.34" height="14.16"/>
+      <rect class="cls-5" x="915.75" y="751.47" width="6.34" height="14.16"/>
+      <rect class="cls-5" x="906.55" y="751.47" width="6.34" height="14.16"/>
+      <path class="cls-5" d="M912.88,740.72c-3.62.87-6.07,2.34-6.07,3.22a.4.4,0,0,0,0,.15h-.29v6h6.33Z"/>
+      <path class="cls-5" d="M922.09,740.2a26.11,26.11,0,0,0-3-.18,25.71,25.71,0,0,0-3.35.22v9.84h6.34Z"/>
+      <path class="cls-5" d="M931.29,743.71c-.43-.92-2.89-2.25-6.34-3v9.44h6.34Z"/>
+      <rect class="cls-5" x="924.95" y="751.47" width="6.34" height="14.16"/>
+      <rect class="cls-5" x="774.96" y="714.35" width="5.23" height="14.16"/>
+      <rect class="cls-5" x="781.33" y="714.35" width="5.23" height="14.16"/>
+      <rect class="cls-5" x="790.04" y="714.35" width="5.23" height="14.16"/>
+      <rect class="cls-5" x="796.41" y="714.35" width="5.23" height="14.16"/>
+      <rect class="cls-5" x="818.5" y="714.35" width="5.23" height="14.16"/>
+      <rect class="cls-5" x="824.87" y="714.35" width="5.23" height="14.16"/>
+      <rect class="cls-5" x="833.57" y="714.35" width="5.23" height="14.16"/>
+      <rect class="cls-5" x="839.95" y="714.35" width="5.23" height="14.16"/>
+      <rect class="cls-5" x="862.03" y="714.35" width="5.23" height="14.16"/>
+      <rect class="cls-5" x="868.41" y="714.35" width="5.23" height="14.16"/>
+      <rect class="cls-5" x="877.11" y="714.35" width="5.23" height="14.16"/>
+      <rect class="cls-5" x="883.49" y="714.35" width="5.23" height="14.16"/>
+      <rect class="cls-5" x="905.57" y="714.35" width="5.23" height="14.16"/>
+      <rect class="cls-5" x="911.95" y="714.35" width="5.23" height="14.16"/>
+      <rect class="cls-5" x="920.65" y="714.35" width="5.23" height="14.16"/>
+      <rect class="cls-5" x="927.03" y="714.35" width="5.23" height="14.16"/>
+      <rect class="cls-5" x="745.71" y="678.49" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="736.47" y="641.17" width="6.87" height="25.84"/>
+      <polygon class="cls-3" points="267.05 487.03 256.97 508.19 277.13 508.19 267.05 487.03"/>
+      <polygon class="cls-3" points="116.96 524.58 107.66 545.74 126.25 545.74 116.96 524.58"/>
+      <polygon class="cls-3" points="198.09 594.86 36.23 594.86 51.16 570.1 181.84 570.1 198.09 594.86"/>
+      <rect class="cls-5" x="82.09" y="603.4" width="19.7" height="21.36"/>
+      <rect class="cls-5" x="132.05" y="603.4" width="19.7" height="21.36"/>
+      <rect class="cls-5" x="103.94" y="603.4" width="9.85" height="21.36"/>
+      <rect class="cls-5" x="120.32" y="603.4" width="9.85" height="21.36"/>
+      <rect class="cls-5" x="158.11" y="603.4" width="12.09" height="21.36"/>
+      <rect class="cls-5" x="174.77" y="603.4" width="12.09" height="21.36"/>
+      <rect class="cls-5" x="48.85" y="603.4" width="12.09" height="21.36"/>
+      <rect class="cls-5" x="65.5" y="603.4" width="12.09" height="21.36"/>
+      <rect class="cls-5" x="44.27" y="633.63" width="18.99" height="28.66"/>
+      <rect class="cls-5" x="70.12" y="633.63" width="18.99" height="28.66"/>
+      <rect class="cls-5" x="95.98" y="633.63" width="18.99" height="28.66"/>
+      <rect class="cls-2" x="107.66" y="545.74" width="18.59" height="24.06"/>
+      <rect class="cls-5" x="121.83" y="633.63" width="18.99" height="28.66"/>
+      <rect class="cls-5" x="147.69" y="633.63" width="18.99" height="28.66"/>
+      <rect class="cls-5" x="173.55" y="633.63" width="18.99" height="28.66"/>
+      <rect class="cls-5" x="44.27" y="667.61" width="18.99" height="30.92"/>
+      <rect class="cls-5" x="70.12" y="667.61" width="18.99" height="30.92"/>
+      <rect class="cls-5" x="95.98" y="667.61" width="18.99" height="30.92"/>
+      <rect class="cls-5" x="121.83" y="667.61" width="18.99" height="30.92"/>
+      <rect class="cls-5" x="147.69" y="667.61" width="18.99" height="30.92"/>
+      <rect class="cls-5" x="173.55" y="667.61" width="18.99" height="30.92"/>
+      <rect class="cls-5" x="745.35" y="641.17" width="6.87" height="25.84"/>
+      <rect class="cls-5" x="779.66" y="641.17" width="6.87" height="25.84"/>
+      <rect class="cls-5" x="788.54" y="641.17" width="6.87" height="25.84"/>
+      <rect class="cls-5" x="822.94" y="641.17" width="6.87" height="25.84"/>
+      <rect class="cls-5" x="831.82" y="641.17" width="6.87" height="25.84"/>
+      <rect class="cls-5" x="866.74" y="641.17" width="6.87" height="25.84"/>
+      <rect class="cls-5" x="875.62" y="641.17" width="6.87" height="25.84"/>
+      <rect class="cls-5" x="911.04" y="641.17" width="6.87" height="25.84"/>
+      <rect class="cls-5" x="919.92" y="641.17" width="6.87" height="25.84"/>
+      <rect class="cls-5" x="752.09" y="678.49" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="776.69" y="678.49" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="783.07" y="678.49" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="789.83" y="678.49" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="796.21" y="678.49" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="819.97" y="678.49" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="826.35" y="678.49" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="833.11" y="678.49" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="839.48" y="678.49" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="863.25" y="678.49" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="869.62" y="678.49" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="876.38" y="678.49" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="882.76" y="678.49" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="906.55" y="678.49" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="912.92" y="678.49" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="919.68" y="678.49" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="926.06" y="678.49" width="5.23" height="21.36"/>
+      <rect class="cls-6" x="592.83" y="430.48" width="7.26" height="2.91"/>
+      <rect class="cls-6" x="604.8" y="430.48" width="7.26" height="2.91"/>
+      <rect class="cls-6" x="670.28" y="430.48" width="7.26" height="2.91"/>
+      <rect class="cls-6" x="682.26" y="430.48" width="7.26" height="2.91"/>
+      <rect class="cls-7" x="634.29" y="442.94" width="14.51" height="2.91"/>
+      <rect class="cls-7" x="614.31" y="442.94" width="14.51" height="2.91"/>
+      <rect class="cls-7" x="651.42" y="442.94" width="14.51" height="2.91"/>
+      <polygon class="cls-2" points="788.3 547.84 760.25 583.58 816.35 583.58 788.3 547.84"/>
+      <polygon class="cls-2" points="875.38 547.84 847.33 583.58 903.43 583.58 875.38 547.84"/>
+      <polygon class="cls-2" points="961.2 547.84 933.15 583.58 989.26 583.58 961.2 547.84"/>
+      <polygon class="cls-2" points="564.27 559.39 536.22 595.13 592.33 595.13 564.27 559.39"/>
+      <polygon class="cls-2" points="62.01 559.91 36.14 595.65 87.88 595.65 62.01 559.91"/>
+      <rect class="cls-5" x="57.21" y="577.43" width="12.09" height="19.74"/>
+      <rect class="cls-5" x="779.57" y="590.08" width="7" height="7.67"/>
+      <rect class="cls-5" x="788.5" y="590.08" width="7" height="7.67"/>
+      <rect class="cls-5" x="779.57" y="580.43" width="7" height="7.67"/>
+      <rect class="cls-5" x="788.5" y="580.43" width="7" height="7.67"/>
+      <rect class="cls-5" x="866.89" y="580.43" width="7" height="7.67"/>
+      <rect class="cls-5" x="875.82" y="580.43" width="7" height="7.67"/>
+      <rect class="cls-5" x="958.36" y="751.47" width="6.34" height="14.16"/>
+      <rect class="cls-5" x="949.16" y="751.47" width="6.34" height="14.16"/>
+      <path class="cls-5" d="M955.5,740.72c-3.63.87-6.08,2.34-6.08,3.22a.4.4,0,0,0,0,.15h-.29v6h6.34Z"/>
+      <path class="cls-5" d="M964.7,740.2a26.11,26.11,0,0,0-3-.18,25.71,25.71,0,0,0-3.35.22v9.84h6.34Z"/>
+      <path class="cls-5" d="M973.9,743.71c-.43-.92-2.89-2.25-6.34-3v9.44h6.34Z"/>
+      <rect class="cls-5" x="967.56" y="751.47" width="6.34" height="14.16"/>
+      <rect class="cls-5" x="948.18" y="714.35" width="5.23" height="14.16"/>
+      <rect class="cls-5" x="954.56" y="714.35" width="5.23" height="14.16"/>
+      <rect class="cls-5" x="963.26" y="714.35" width="5.23" height="14.16"/>
+      <rect class="cls-5" x="969.64" y="714.35" width="5.23" height="14.16"/>
+      <rect class="cls-5" x="953.65" y="641.17" width="6.87" height="25.84"/>
+      <rect class="cls-5" x="962.53" y="641.17" width="6.87" height="25.84"/>
+      <rect class="cls-5" x="949.16" y="678.49" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="955.53" y="678.49" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="962.29" y="678.49" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="968.67" y="678.49" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="951.28" y="581.27" width="5.29" height="8.46"/>
+      <rect class="cls-5" x="958.04" y="581.27" width="5.29" height="8.46"/>
+      <rect class="cls-5" x="964.79" y="581.27" width="5.29" height="8.46"/>
+      <rect class="cls-5" x="221.35" y="603.4" width="8.93" height="21.36"/>
+      <rect class="cls-5" x="232.91" y="603.4" width="8.93" height="21.36"/>
+      <rect class="cls-5" x="281.1" y="603.4" width="8.93" height="21.36"/>
+      <rect class="cls-5" x="292.66" y="603.4" width="8.93" height="21.36"/>
+      <rect class="cls-5" x="341.93" y="603.4" width="8.93" height="21.36"/>
+      <rect class="cls-5" x="353.49" y="603.4" width="8.93" height="21.36"/>
+      <rect class="cls-5" x="557.89" y="575.81" width="13.11" height="21.36"/>
+      <rect class="cls-4" x="383.71" y="705.93" width="208.61" height="63.6"/>
+      <rect class="cls-4" x="36.14" y="705.93" width="347.57" height="63.6"/>
+      <rect class="cls-4" x="592.6" y="705.93" width="96.9" height="63.6"/>
+      <rect class="cls-4" x="612.06" y="445.85" width="58.24" height="122.23"/>
+      <path class="cls-8" d="M255.65,652.61c0-5.27-10.29-23.27-23-23.27s-23.7,18-23.7,23.22v50.85h46.68Z"/>
+      <path class="cls-8" d="M316.2,652.61c0-5.27-10.29-23.27-23-23.27s-23.7,18-23.7,23.22v50.85H316.2Z"/>
+      <path class="cls-8" d="M374.37,652.61c0-5.27-10.29-23.27-23-23.27s-23.7,18-23.7,23.22v50.85h46.68Z"/>
+      <rect class="cls-5" x="212.28" y="675.81" width="10.31" height="25.84"/>
+      <rect class="cls-5" x="226.74" y="675.81" width="10.31" height="25.84"/>
+      <rect class="cls-5" x="241.21" y="675.81" width="10.31" height="25.84"/>
+      <rect class="cls-5" x="212.28" y="715.86" width="10.31" height="15.18"/>
+      <rect class="cls-5" x="226.74" y="715.86" width="10.31" height="15.18"/>
+      <rect class="cls-5" x="241.21" y="715.86" width="10.31" height="15.18"/>
+      <rect class="cls-5" x="272" y="715.86" width="10.31" height="15.18"/>
+      <rect class="cls-5" x="286.47" y="715.86" width="10.31" height="15.18"/>
+      <rect class="cls-5" x="300.94" y="715.86" width="10.31" height="15.18"/>
+      <rect class="cls-5" x="332.55" y="715.86" width="10.31" height="15.18"/>
+      <rect class="cls-5" x="347.02" y="715.86" width="10.31" height="15.18"/>
+      <rect class="cls-5" x="361.48" y="715.86" width="10.31" height="15.18"/>
+      <rect class="cls-5" x="212.28" y="651.36" width="10.31" height="17.85"/>
+      <rect class="cls-5" x="226.74" y="651.36" width="10.31" height="17.85"/>
+      <rect class="cls-5" x="241.21" y="651.36" width="10.31" height="17.85"/>
+      <rect class="cls-5" x="273.29" y="651.36" width="10.31" height="17.85"/>
+      <rect class="cls-5" x="287.76" y="651.36" width="10.31" height="17.85"/>
+      <rect class="cls-5" x="302.22" y="651.36" width="10.31" height="17.85"/>
+      <rect class="cls-5" x="331.11" y="651.36" width="10.31" height="17.85"/>
+      <rect class="cls-5" x="345.57" y="651.36" width="10.31" height="17.85"/>
+      <rect class="cls-5" x="360.04" y="651.36" width="10.31" height="17.85"/>
+      <rect class="cls-5" x="273.29" y="675.81" width="10.31" height="25.84"/>
+      <rect class="cls-5" x="287.76" y="675.81" width="10.31" height="25.84"/>
+      <rect class="cls-5" x="302.22" y="675.81" width="10.31" height="25.84"/>
+      <rect class="cls-5" x="331.4" y="675.81" width="10.31" height="25.84"/>
+      <rect class="cls-5" x="345.87" y="675.81" width="10.31" height="25.84"/>
+      <rect class="cls-5" x="360.34" y="675.81" width="10.31" height="25.84"/>
+      <path class="cls-5" d="M222.59,632.57a37.16,37.16,0,0,0-10.31,10.7v5.6h10.31Z"/>
+      <path class="cls-5" d="M237.06,630.36a14.57,14.57,0,0,0-5-.92,15.21,15.21,0,0,0-5.31,1v18.42h10.32Z"/>
+      <path class="cls-5" d="M241.21,632.46v16.41h10.31v-5.23A35.79,35.79,0,0,0,241.21,632.46Z"/>
+      <path class="cls-5" d="M283.6,632.57a37.3,37.3,0,0,0-10.31,10.7v5.6H283.6Z"/>
+      <path class="cls-5" d="M298.07,630.36a14.52,14.52,0,0,0-5-.92,15.11,15.11,0,0,0-5.3,1v18.42h10.31Z"/>
+      <path class="cls-5" d="M302.22,632.46v16.41h10.31v-5.23A35.79,35.79,0,0,0,302.22,632.46Z"/>
+      <path class="cls-5" d="M341.72,632.57a37.33,37.33,0,0,0-10.32,10.7v5.6h10.32Z"/>
+      <path class="cls-5" d="M356.18,630.36a14.52,14.52,0,0,0-5-.92,15.15,15.15,0,0,0-5.3,1v18.42h10.31Z"/>
+      <path class="cls-5" d="M360.34,632.46v16.41h10.31v-5.23A35.79,35.79,0,0,0,360.34,632.46Z"/>
+      <rect class="cls-5" x="212.28" y="732.71" width="10.31" height="24.18"/>
+      <rect class="cls-5" x="226.74" y="732.71" width="10.31" height="24.18"/>
+      <rect class="cls-5" x="241.21" y="732.71" width="10.31" height="24.18"/>
+      <rect class="cls-5" x="272" y="732.71" width="10.31" height="24.18"/>
+      <rect class="cls-5" x="286.47" y="732.71" width="10.31" height="24.18"/>
+      <rect class="cls-5" x="300.94" y="732.71" width="10.31" height="24.18"/>
+      <rect class="cls-5" x="332.55" y="732.71" width="10.31" height="24.18"/>
+      <rect class="cls-5" x="347.02" y="732.71" width="10.31" height="24.18"/>
+      <rect class="cls-5" x="361.48" y="732.71" width="10.31" height="24.18"/>
+      <path class="cls-9" d="M499.58,716.41c0-3.93-10-19.74-22.26-19.74s-22.95,15.81-22.95,19.74v35.53h45.21Z"/>
+      <rect class="cls-5" x="400.44" y="633.31" width="20.59" height="28.66"/>
+      <rect class="cls-5" x="446.2" y="633.31" width="20.59" height="28.66"/>
+      <rect class="cls-5" x="485.35" y="633.31" width="20.59" height="28.66"/>
+      <rect class="cls-5" x="513.39" y="633.31" width="20.59" height="28.66"/>
+      <rect class="cls-5" x="541.9" y="633.31" width="20.59" height="28.66"/>
+      <rect class="cls-5" x="567.36" y="633.31" width="20.59" height="28.66"/>
+      <rect class="cls-5" x="400.44" y="665.74" width="20.59" height="30.92"/>
+      <rect class="cls-5" x="446.2" y="665.74" width="20.59" height="30.92"/>
+      <rect class="cls-5" x="485.35" y="665.74" width="20.59" height="30.92"/>
+      <rect class="cls-5" x="513.39" y="665.74" width="20.59" height="30.92"/>
+      <rect class="cls-10" x="454.16" y="753.34" width="45.63" height="4.19"/>
+      <rect class="cls-10" x="454.16" y="758.93" width="45.63" height="4.19"/>
+      <rect class="cls-10" x="454.16" y="764.52" width="45.63" height="4.19"/>
+      <rect class="cls-5" x="541.9" y="665.74" width="20.59" height="30.92"/>
+      <rect class="cls-5" x="567.36" y="665.74" width="20.59" height="30.92"/>
+      <rect class="cls-5" x="513.39" y="713.05" width="20.59" height="30.92"/>
+      <rect class="cls-5" x="401.47" y="713.05" width="20.59" height="30.92"/>
+      <rect class="cls-5" x="545.35" y="713.36" width="17.66" height="30.92"/>
+      <rect class="cls-5" x="567.18" y="713.36" width="17.66" height="30.92"/>
+      <rect class="cls-4" x="612.06" y="688.76" width="58.08" height="3.71"/>
+      <rect class="cls-4" x="612.06" y="665.93" width="58.08" height="3.71"/>
+      <rect class="cls-4" x="612.06" y="642.91" width="58.08" height="3.71"/>
+      <rect class="cls-4" x="612.06" y="621.48" width="58.24" height="2.48"/>
+      <rect class="cls-6" x="592.86" y="433.37" width="19.2" height="336.17"/>
+      <rect class="cls-6" x="670.3" y="433.37" width="19.2" height="336.17"/>
+      <rect class="cls-4" x="592.6" y="568.08" width="97.17" height="3.07"/>
+      <rect class="cls-4" x="689.77" y="600.25" width="299.13" height="25.47"/>
+      <rect class="cls-4" x="36.14" y="627.04" width="556.19" height="1.86"/>
+      <rect class="cls-4" x="36.14" y="599.39" width="653.36" height="2.06"/>
+      <rect class="cls-4" x="218.92" y="550.76" width="25.93" height="44.09"/>
+      <rect class="cls-4" x="279.02" y="550.76" width="25.93" height="44.09"/>
+      <rect class="cls-4" x="339.21" y="550.76" width="25.93" height="44.09"/>
+      <rect class="cls-4" x="689.77" y="705.93" width="27" height="62.78"/>
+      <rect class="cls-4" x="729.21" y="705.93" width="31.1" height="62.78"/>
+      <rect class="cls-4" x="772.71" y="705.93" width="31.1" height="62.78"/>
+      <rect class="cls-4" x="816.03" y="705.93" width="31.1" height="62.78"/>
+      <rect class="cls-4" x="859.83" y="705.93" width="31.1" height="62.78"/>
+      <rect class="cls-4" x="903.37" y="705.93" width="31.1" height="62.78"/>
+      <rect class="cls-4" x="946.91" y="705.93" width="29.16" height="62.78"/>
+      <rect class="cls-11" x="975.7" y="583.31" width="12.44" height="185.41"/>
+      <rect class="cls-11" x="716.77" y="583.31" width="12.44" height="185.41"/
+      ><rect class="cls-11" x="760.31" y="583.31" width="12.44" height="185.41"/>
+      <rect class="cls-11" x="803.85" y="583.31" width="12.44" height="185.41"/>
+      <rect class="cls-11" x="847.39" y="583.31" width="12.44" height="185.41"/>
+      <rect class="cls-11" x="890.92" y="583.31" width="12.44" height="185.41"/>
+      <rect class="cls-11" x="934.46" y="583.31" width="12.44" height="185.41"/>
+      <rect class="cls-5" x="698.31" y="602.59" width="10.63" height="21.36"/>
+      <rect class="cls-5" x="732.58" y="602.59" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="738.95" y="602.59" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="745.71" y="602.59" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="752.09" y="602.59" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="775.93" y="602.59" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="782.3" y="602.59" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="789.06" y="602.59" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="795.44" y="602.59" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="819.21" y="602.59" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="825.58" y="602.59" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="832.34" y="602.59" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="838.72" y="602.59" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="863.01" y="602.59" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="869.38" y="602.59" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="876.14" y="602.59" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="882.52" y="602.59" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="906.55" y="602.59" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="912.92" y="602.59" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="919.68" y="602.59" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="926.06" y="602.59" width="5.23" height="21.36"/>
+      <rect class="cls-5" x="951.72" y="592.34" width="5.23" height="23.56"/>
+      <rect class="cls-5" x="958.48" y="592.34" width="5.23" height="23.56"/>
+      <rect class="cls-5" x="964.86" y="592.34" width="5.23" height="23.56"/>
+      <rect class="cls-5" x="130.17" y="713.36" width="18.99" height="30.92"/>
+      <rect class="cls-5" x="71.09" y="713.36" width="18.99" height="30.92"/>
+      <rect class="cls-5" x="95.98" y="713.36" width="18.99" height="30.92"/>
+      <rect class="cls-5" x="45.22" y="713.05" width="18.99" height="30.92"/>
+      <rect class="cls-5" x="153.25" y="713.36" width="16.28" height="30.92"/>
+      <rect class="cls-5" x="173.38" y="713.36" width="16.28" height="30.92"/>
+      <path class="cls-5" d="M629.18,469.86c0-5.93-2.83-10.74-6.32-10.74s-6.33,4.81-6.33,10.74c0,.21,0,.42,0,.63h-.21v72h12.85v-72h0C629.18,470.28,629.18,470.07,629.18,469.86Z"/>
+      <path class="cls-5" d="M648.35,469.86c0-5.93-3-10.74-6.7-10.74S635,463.93,635,469.86c0,.21,0,.42,0,.63h-.22v72h13.6v-72h0C648.34,470.28,648.35,470.07,648.35,469.86Z"/>
+      <path class="cls-5" d="M664.83,469.86c0-5.93-2.71-10.74-6.06-10.74s-6.06,4.81-6.06,10.74c0,.21,0,.42,0,.63h-.21v72h12.31v-72h0C664.82,470.28,664.83,470.07,664.83,469.86Z"/>
+      <rect class="cls-5" x="634.33" y="692.82" width="5.23" height="13.11"/>
+      <rect class="cls-5" x="641.95" y="692.82" width="5.23" height="13.11"/>
+      <rect class="cls-5" x="616.33" y="692.82" width="5.23" height="13.11"/>
+      <rect class="cls-5" x="623.95" y="692.82" width="5.23" height="13.11"/>
+      <rect class="cls-5" x="651.98" y="692.82" width="5.23" height="13.11"/>
+      <rect class="cls-5" x="659.6" y="692.82" width="5.23" height="13.11"/>
+      <rect class="cls-5" x="634.33" y="669.84" width="5.23" height="18.89"/>
+      <rect class="cls-5" x="641.95" y="669.84" width="5.23" height="18.89"/>
+      <rect class="cls-5" x="616.33" y="669.84" width="5.23" height="18.89"/>
+      <rect class="cls-5" x="623.95" y="669.84" width="5.23" height="18.89"/>
+      <rect class="cls-5" x="651.98" y="669.84" width="5.23" height="18.89"/>
+      <rect class="cls-5" x="659.6" y="669.84" width="5.23" height="18.89"/>
+      <rect class="cls-5" x="634.33" y="646.85" width="5.23" height="18.89"/>
+      <rect class="cls-5" x="641.95" y="646.85" width="5.23" height="18.89"/>
+      <rect class="cls-5" x="616.33" y="646.85" width="5.23" height="18.89"/>
+      <rect class="cls-5" x="623.95" y="646.85" width="5.23" height="18.89"/>
+      <rect class="cls-5" x="651.98" y="646.85" width="5.23" height="18.89"/>
+      <rect class="cls-5" x="659.6" y="646.85" width="5.23" height="18.89"/>
+      <rect class="cls-5" x="634.33" y="623.87" width="5.23" height="18.89"/>
+      <rect class="cls-5" x="641.95" y="623.87" width="5.23" height="18.89"/>
+      <rect class="cls-5" x="616.33" y="623.87" width="5.23" height="18.89"/>
+      <rect class="cls-5" x="623.95" y="623.87" width="5.23" height="18.89"/>
+      <rect class="cls-5" x="651.98" y="623.87" width="5.23" height="18.89"/>
+      <rect class="cls-5" x="659.6" y="623.87" width="5.23" height="18.89"/>
+      <rect class="cls-5" x="634.33" y="601.45" width="5.23" height="20.03"/>
+      <rect class="cls-5" x="641.95" y="601.45" width="5.23" height="20.03"/>
+      <rect class="cls-5" x="616.33" y="601.45" width="5.23" height="20.03"/>
+      <rect class="cls-5" x="623.95" y="601.45" width="5.23" height="20.03"/>
+      <rect class="cls-5" x="651.98" y="601.45" width="5.23" height="20.03"/>
+      <rect class="cls-5" x="659.6" y="601.45" width="5.23" height="20.03"/>
+      <rect class="cls-5" x="634.33" y="571.15" width="5.23" height="28.24"/>
+      <rect class="cls-5" x="641.95" y="571.15" width="5.23" height="28.24"/>
+      <rect class="cls-5" x="616.33" y="571.15" width="5.23" height="28.24"/>
+      <rect class="cls-5" x="623.95" y="571.15" width="5.23" height="28.24"/>
+      <rect class="cls-5" x="651.98" y="571.15" width="5.23" height="28.24"/>
+      <rect class="cls-5" x="659.6" y="571.15" width="5.23" height="28.24"/>
+      <rect class="cls-5" x="634.33" y="547.57" width="5.23" height="20.51"/>
+      <rect class="cls-5" x="641.95" y="547.57" width="5.23" height="20.51"/>
+      <rect class="cls-5" x="616.33" y="547.57" width="5.23" height="20.51"/>
+      <rect class="cls-5" x="623.95" y="547.57" width="5.23" height="20.51"/>
+      <rect class="cls-5" x="651.98" y="547.57" width="5.23" height="20.51"/>
+      <rect class="cls-5" x="659.6" y="547.57" width="5.23" height="20.51"/>
+      <path class="cls-9" d="M664.21,735.76c0-3.74-10-18.76-22.26-18.76s-23,15-23,18.77v33.76h45.21Z"/>
+      <rect class="cls-5" x="221.35" y="567.25" width="8.93" height="25.18"/>
+      <rect class="cls-5" x="232.91" y="567.25" width="8.93" height="25.18"/>
+      <rect class="cls-5" x="221.35" y="553.25" width="8.93" height="11.2"/>
+      <rect class="cls-5" x="232.91" y="553.25" width="8.93" height="11.2"/>
+      <rect class="cls-5" x="281.38" y="567.25" width="8.93" height="25.18"/>
+      <rect class="cls-5" x="292.94" y="567.25" width="8.93" height="25.18"/>
+      <rect class="cls-5" x="281.38" y="553.25" width="8.93" height="11.2"/>
+      <rect class="cls-5" x="292.94" y="553.25" width="8.93" height="11.2"/>
+      <rect class="cls-5" x="341.93" y="567.25" width="8.93" height="25.18"/>
+      <rect class="cls-5" x="353.49" y="567.25" width="8.93" height="25.18"/>
+      <rect class="cls-5" x="341.93" y="553.25" width="8.93" height="11.2"/>
+      <rect class="cls-5" x="353.49" y="553.25" width="8.93" height="11.2"/>
+    </g>
+  </g>
+</svg>

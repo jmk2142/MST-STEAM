@@ -1,0 +1,73 @@
+body {
+  background-color: #2B475E;
+}
+
+.svg-container {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto 100px;
+}
+.svg-container svg {
+  display: block;
+  overflow: hidden;
+  max-width: 100%;
+}
+.no-js .svg-container {
+  height: 200px;
+  background: url("../assets/cd-icon.svg") no-repeat center center;
+}
+/* .svg-container svg {
+  display: none;
+} */
+
+@-webkit-keyframes breeze{
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(3deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+@-moz-keyframes breeze{
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  50% {
+    -moz-transform: rotate(10deg);
+  }
+  100% {
+    -moz-transform: rotate(0deg);
+  }
+}
+
+@keyframes tutsFade {
+  to {
+    opacity: 0;
+    transform: scale(2);
+  }
+}
+
+@keyframes move {
+  0%   {left:0px; top:0px;}
+      25%  {left:200px; top:0px;}
+      50%  {left:200px; top:200px;}
+      75%  {left:0px; top:200px;}
+      100% {left:0px; top:0px;}
+}
+
+.cross{
+  /* -webkit-transform-origin: 50% 100%;
+  -webkit-animation: breeze 2s ease-out infinite;
+  -moz-transform-origin: 50% bottom; */
+  animation: tutsFade 0.5s 3s infinite ease-in alternate;
+  /*-moz-animation: breeze 2s ease-out infinite;*/
+}
+
+.bulb {
+  animation: move 2s 2s infinite ease-in alternate;
+
+}
