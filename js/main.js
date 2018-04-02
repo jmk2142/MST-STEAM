@@ -121,5 +121,95 @@ jQuery(document).ready(function($) {
   });
 
   // custom code
+  $('#count-down').text = countdown( new Date(2000, 0, 1) ).toString();
 
+  var timerId =
+  countdown(
+    new Date(2018, 3, 7, 9),
+    function(ts) {
+      var firstDigitOfDays, secondDigitOfDays,
+      firstDigitOfHours, secondDigitOfHours,
+      firstDigitOfMinutes, secondDigitOfDMinutes,
+      firstDigitOfSeconds, secondDigitOfDSeconds;
+
+      if(ts.days < 10)
+      {
+        firstDigitOfDays = 0;
+        secondDigitOfDays = ts.days;
+      }
+      else {
+        firstDigitOfDays = Math.round(ts.days / 10);
+        secondDigitOfDays = ts.days % 10;
+      }
+      if(ts.hours < 10)
+      {
+        firstDigitOfHours = 0;
+        secondDigitOfHours = ts.hours;
+      }
+      else {
+        firstDigitOfHours = Math.floor(ts.hours / 10);
+        secondDigitOfHours = ts.hours % 10;
+      }
+      if(ts.minutes < 10)
+      {
+        firstDigitOfMinutes = 0;
+        secondDigitOfMinutes = ts.minutes;
+      }
+      else {
+        firstDigitOfMinutes = Math.floor(ts.minutes / 10);
+        secondDigitOfMinutes = ts.minutes % 10;
+      }
+      if(ts.seconds < 10)
+      {
+        firstDigitOfSeconds = 0;
+        secondDigitOfSeconds = ts.seconds;
+      }
+      else {
+        firstDigitOfSeconds = Math.floor(ts.seconds / 10);
+        secondDigitOfSeconds = ts.seconds % 10;
+      }
+
+      document.getElementById('count-down').innerHTML = `<div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-4">
+          <div class="row">
+            <div class="col-lg-12">
+              <span class="time-unit">${firstDigitOfDays}</span>
+              <span class="time-unit">${secondDigitOfDays}</span>
+              <span>:</span>
+            </div>
+            <div class="col-lg-12">
+              <p>days</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="row">
+            <div class="col-lg-12">
+              <span class="time-unit">${firstDigitOfHours}</span>
+              <span class="time-unit">${secondDigitOfHours}</span>
+              <span>:</span>
+            </div>
+            <div class="col-lg-12">
+              <p>hours</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="row">
+            <div class="col-lg-12">
+              <span class="time-unit">${firstDigitOfMinutes}</span>
+              <span class="time-unit">${secondDigitOfMinutes}</span>
+            </div>
+          <div class="col-lg-12">
+            <p>minutes</p>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="row no-gutters"><div class="col-lg-12"><p style="font-size: 24px">to Academic Festival</p></div></div></div>`;
+    },
+    countdown.DAYS|countdown.HOURS|countdown.MINUTES|countdown.SECONDS);
 });

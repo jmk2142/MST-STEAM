@@ -1,8 +1,8 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 768">
+<svg id="animated-svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 768" width="350">
   <defs>
     <style>.cls-1,.cls-5{fill:#fff;}.cls-2{fill:#2b475e;}.cls-3,.cls-6{fill:#ffd43d;}.cls-4{fill:#deb935;}.cls-5{font-size:232.67px;}.cls-5,.cls-6{font-family:LilitaOne, Lilita One;}.cls-6{font-size:177.77px;}.cls-7{fill:#c0d0d2;}</style>
   </defs>
-  
+
   <title>logo</title>
 
   <path id="bulb" class="cls-1" d="M672.7,113.05a83.46,83.46,0,1,0-144.11,57.26c16.14,17,24.64,39.93,24.64,63.55v4.24h70.19v-3.22c0-24.13,9.86-46.9,26.34-64.4A82.78,82.78,0,0,0,672.7,113.05Z"/>

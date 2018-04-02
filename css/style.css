@@ -209,6 +209,24 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+#count-down {
+  position: absolute;
+  left: calc(67%);
+  top: calc(30%);
+  text-align: center;
+  color:white;
+  font-size: 40px;
+  width: 400px;
+}
+
+#count-down .time-unit {
+  background: url('../img/time-bg.svg') no-repeat;
+  background-size: contain;
+  padding: 0px 7px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #003b5d;
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/

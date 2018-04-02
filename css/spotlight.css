@@ -1,0 +1,112 @@
+/*
+Base spotlight concept from http://www.rwe-uk.com/blog/comments/rich_css_spotlight_with_elliptical_gradients_in_safari_chrome_firefox/
+
+Lamp effect supported by Chrome and Safari, but not Firefox. Spotlight effect supported in all three.
+*/
+.wrapper {
+  height: 100vh;
+  width: 150vh;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  -moz-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  filter: FlipV;
+  -ms-filter: "FlipV";
+}
+
+.spotlight_swivel {
+  animation: rotate_spotlight 5s linear infinite;
+}
+.lamp {
+  position: absolute;
+  width: 20vh;
+  height: 400vh;
+  background-image: radial-gradient(ellipse, rgba(82,116,168,0.5), rgba(82,116,168,0.2) 25%, rgba(82,116,168,0) 50%);
+  top:-220vh;
+  left:55vh;
+  transform: perspective(23vh) rotateX(30deg);
+}
+.spotlight {
+  opacity: 0.5;
+  transform: scale(1.5,3);
+  position: absolute;
+  top: -20vh;
+  left: calc(50% - 75vh);
+}
+.spotlight::after {
+  content: '';
+  position: absolute;
+  top: -50vh;
+  background-image: radial-gradient(ellipse closest-corner at 75% 75%, rgba(55,89,138,0.2), rgba(55,89,138,0));
+  border-radius: 100%;
+  width: 100vh;
+  height: 100vh;
+  clip: rect(50vh, 100vh, 100vh, 50vh);
+  transform: rotate(45deg);
+}
+
+@keyframes rotate_spotlight {
+  0% {
+    transform: rotate(0deg) scaleY(1) translateY(0);
+  }
+  25% {
+    transform: rotate(-15deg) scaleY(1.1) translateY(-3vh);
+  }
+  50% {
+    transform: rotate(0deg) scaleY(1) translateY(0);
+  }
+  75% {
+    transform: rotate(15deg) scaleY(1.1) translateY(-3vh);
+  }
+}
+
+@keyframes move_highlight {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(25vh);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(-25vh);
+  }
+}
+
+/* .ray{
+    background:#f7ce5b;
+    width:100px;
+    height:50px;
+    position:absolute;
+    top:0;
+    -webkit-transition: all 1000ms ease;
+    -moz-transition: all 1000ms ease;
+    -ms-transition: all 1000ms ease;
+    -o-transition: all 1000ms ease;
+    transition: all 1000ms ease;
+
+    -moz-transform: scale(1) rotate(0) translateX(0px) translateY(0px) skewX(30deg) skewY(0deg);
+    -webkit-transform: scale(1) rotate(0) translateX(0px) translateY(0px) skewX(30deg) skewY(0deg);
+    -o-transform: scale(1) rotate(0) translateX(0px) translateY(0px) skewX(30deg) skewY(0deg);
+    -ms-transform: scale(1) rotate(0) translateX(0px) translateY(0px) skewX(30deg) skewY(0deg);
+    transform: scale(1) rotate(0) translateX(0px) translateY(0px) skewX(30deg) skewY(0deg);
+}
+
+#one{left:-80px}
+#two{left:800px;}
+#three{left:200px;}
+
+.rays {
+  animation: move_highlight 5s linear infinite;
+
+  height: 100vh;
+  width: 150vh;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+} */
