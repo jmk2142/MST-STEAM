@@ -138,10 +138,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro .intro-text {
   position: absolute;
-  left: -400px;
-  top: 100px;
-  right: 0;
+  left: calc(30%);
+  top: calc(15%);
   height: calc(50% - 60px);
+  z-index: 22;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -156,61 +156,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   line-height: 56px;
   color: #fff;
-}
-
-@media (max-width: 768px) {
-  #intro h2 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-}
-
-#intro p {
-  color: #fff;
-  margin-bottom: 20px;
-  padding: 0 15px;
-  font-size: 18px;
-}
-
-@media (max-width: 768px) {
-  #intro p {
-    font-size: 14px;
-    line-height: 24px;
-    margin-bottom: 20px;
-  }
-}
-
-#intro .hero-image {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  /* overflow: hidden; */
-  text-align: center;
-  width: 100%;
-  height: 50%;
-}
-
-#intro .hero-image .tc-building {
-  position: relative;
-  z-index: 20;
-  left: calc(1%);
-  bottom: 160px;
-}
-
-#intro .hero-image .cab {
-  position: relative;
-  z-index: 21;
-  left: calc(1%);
-  top: 435px;
-  left: 0px;
-}
-
-@media (max-width: 767px) {
-  #intro .hero-image .tc-building {
-    /* position: static; */
-    /* padding-top: 30px; */
-  }
 }
 
 #count-down {
@@ -231,6 +176,97 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   color: #003b5d;
 }
+
+@media (max-width: 768px) {
+  #intro h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #intro p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+}
+
+#intro p {
+  color: #fff;
+  margin-bottom: 20px;
+  padding: 0 15px;
+  font-size: 18px;
+}
+
+#intro .hero-image {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* overflow: hidden; */
+  text-align: center;
+  width: 100%;
+  height: 50%;
+}
+
+#intro .hero-image .tc-building {
+  position: relative;
+  z-index: 20;
+  left: calc(1%);
+  bottom: calc(30% + 20px);
+}
+
+#intro .hero-image .cab {
+  position: relative;
+  z-index: 21;
+  left: calc(1%);
+  top: calc(90% + 10px);
+}
+
+@media (max-width: 1200px) {
+  #intro .hero-image .tc-building {
+    /* position: static; */
+    /* bottom: calc(40% + 20px); */
+  }
+
+  #intro #count-down, #intro .cab {
+    display: none;
+  }
+}
+
+@media (max-width: 1366px) {
+  #intro .hero-image .tc-building {
+    left: calc(6%);
+    bottom: calc(60%);
+    width: 85%;
+  }
+
+  #intro .hero-image .cab {
+    left: calc(1%);
+    top: calc(90% - 10px);
+  }
+
+  #intro .intro-text {
+    left: calc(20%);
+  }
+
+  #intro #steam-logo {
+    width: 75%;
+    height: auto;
+  }
+}
+
+@media (max-width: 1000px) {
+  #intro .hero-image .tc-building {
+    display: none;
+  }
+
+  #intro .intro-text {
+    left: calc(10%);
+    top: calc(25%);
+  }
+}
+
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -966,9 +1002,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-#learn-more .info {
-}
-
 #learn-more .info i {
   font-size: 32px;
   color: #003b5d;
@@ -980,55 +1013,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0 0 10px 42px;
   line-height: 28px;
   font-size: 14px;
-}
-
-#learn-more .form #sendmessage {
-  border: 1px solid #003b5d;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#learn-more .form #errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#learn-more .form #sendmessage.show, #contact .form #errormessage.show, #contact .form .show {
-  display: block;
-}
-
-#learn-more .form .validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-#learn-more .form input, #contact .form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-}
-
-#learn-more .form button[type="submit"] {
-  background: #003b5d;
-  border: 0;
-  border-radius: 20px;
-  padding: 8px 30px;
-  color: #fff;
-}
-
-#learn-more .form button[type="submit"]:hover {
-  cursor: pointer;
 }
 
 /*--------------------------------------------------------------

@@ -256,7 +256,7 @@ jQuery(document).ready(function($) {
 
     var cab = anime({
       targets: '.cab',
-      translateX: 1800,
+      translateX: 1000,
       loop: true,
       duration: 10000,
       direction: 'alternate',
