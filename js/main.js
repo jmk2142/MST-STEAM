@@ -121,10 +121,7 @@ jQuery(document).ready(function($) {
   });
 
   // custom code
-  $('#count-down').text = countdown( new Date(2000, 0, 1) ).toString();
-
-  var timerId =
-  countdown(
+  var timerId = countdown(
     new Date(2018, 3, 7, 9),
     function(ts) {
       var firstDigitOfDays, secondDigitOfDays,
@@ -169,7 +166,7 @@ jQuery(document).ready(function($) {
         secondDigitOfSeconds = ts.seconds % 10;
       }
 
-      document.getElementById('count-down').innerHTML = `<div class="container">
+      $('#count-down').html(`<div class="container">
       <div class="row no-gutters">
         <div class="col-lg-4">
           <div class="row">
@@ -209,7 +206,61 @@ jQuery(document).ready(function($) {
         </div>
       </div>
       </div>
-      <div class="row no-gutters"><div class="col-lg-12"><p style="font-size: 24px">to Academic Festival</p></div></div></div>`;
+      <div class="row no-gutters"><div class="col-lg-12"><p style="font-size: 24px">to Academic Festival</p></div></div></div>`);
     },
     countdown.DAYS|countdown.HOURS|countdown.MINUTES|countdown.SECONDS);
+
+    var bulb = anime({
+      targets: '#bulb',
+      translateY: -20,
+      loop: true,
+      direction: 'alternate',
+      easing: 'easeInSine'
+    });
+
+    var whiteCross = anime({
+      targets: '#left-white-cross',
+      fill: [
+        {value: '#c0d0d2'},
+        {value: '#ffd43d'},
+        {value: '#fff'},
+      ],
+      direction: 'alternate',
+      duration: 3000,
+      loop: true
+    });
+
+    var yellowCross = anime({
+      targets: ['#left-yellow-cross', '#right-yellow-cross'],
+      fill: [
+        {value: '#fff'},
+        {value: '#c0d0d2'},
+        {value: '#ffd43d'}
+      ],
+      direction: 'alternate',
+      duration: 3000,
+      loop: true
+    });
+
+    var greyCross = anime({
+      targets: ['#left-grey-cross', '#right-grey-cross'],
+      fill: [
+        {value: '#ffd43d'},
+        {value: '#fff'},
+        {value: '#c0d0d2'}
+      ],
+      direction: 'alternate',
+      duration: 3000,
+      loop: true
+    });
+
+    var cab = anime({
+      targets: '.cab',
+      translateX: 1800,
+      loop: true,
+      duration: 10000,
+      direction: 'alternate',
+      easing: 'easeInOutCirc',
+      delay: 1000,
+    });
 });
