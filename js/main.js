@@ -148,49 +148,13 @@ jQuery(document).ready(function($) {
         secondDigitOfSeconds = ts.seconds % 10;
       }
 
-      $('#count-down').html(`<div class="container">
-      <div class="row no-gutters">
-        <div class="col-lg-4">
-          <div class="row">
-            <div class="col-lg-12">
-              <span class="time-unit">${firstDigitOfDays}</span>
-              <span class="time-unit">${secondDigitOfDays}</span>
-              <span>:</span>
-            </div>
-            <div class="col-lg-12">
-              <p>days</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="row">
-            <div class="col-lg-12">
-              <span class="time-unit">${firstDigitOfHours}</span>
-              <span class="time-unit">${secondDigitOfHours}</span>
-              <span>:</span>
-            </div>
-            <div class="col-lg-12">
-              <p>hours</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="row">
-            <div class="col-lg-12">
-              <span class="time-unit">${firstDigitOfMinutes}</span>
-              <span class="time-unit">${secondDigitOfMinutes}</span>
-            </div>
-          <div class="col-lg-12">
-            <p>minutes</p>
-          </div>
-        </div>
-      </div>
-      </div>
-      <div class="row no-gutters"><div class="col-lg-12"><p class="subtitle">to Academic Festival</p></div></div></div>`);
-    },
-    countdown.DAYS|countdown.HOURS|countdown.MINUTES|countdown.SECONDS);
+      $('#count-down .first-day').text(firstDigitOfDays);
+      $('#count-down .second-day').text(secondDigitOfDays);
+      $('#count-down .first-hour').text(firstDigitOfHours);
+      $('#count-down .second-hour').text(secondDigitOfHours);
+      $('#count-down .first-minute').text(firstDigitOfMinutes);
+      $('#count-down .second-minute').text(secondDigitOfMinutes);
+    }, countdown.DAYS|countdown.HOURS|countdown.MINUTES|countdown.SECONDS);
 
     var bulb = anime({
       targets: '#bulb',
