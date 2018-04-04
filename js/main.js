@@ -102,24 +102,6 @@ jQuery(document).ready(function($) {
     }
   });
 
-  // Gallery - uses the magnific popup jQuery plugin
-  $('.gallery-popup').magnificPopup({
-    type: 'image',
-    removalDelay: 300,
-    mainClass: 'mfp-fade',
-    gallery: {
-      enabled: true
-    },
-    zoom: {
-      enabled: true,
-      duration: 300,
-      easing: 'ease-in-out',
-      opener: function(openerElement) {
-        return openerElement.is('img') ? openerElement : openerElement.find('img');
-      }
-    }
-  });
-
   // custom code
   var timerId = countdown(
     new Date(2018, 3, 7, 9),
@@ -206,7 +188,7 @@ jQuery(document).ready(function($) {
         </div>
       </div>
       </div>
-      <div class="row no-gutters"><div class="col-lg-12"><p style="font-size: 24px">to Academic Festival</p></div></div></div>`);
+      <div class="row no-gutters"><div class="col-lg-12"><p class="subtitle">to Academic Festival</p></div></div></div>`);
     },
     countdown.DAYS|countdown.HOURS|countdown.MINUTES|countdown.SECONDS);
 
@@ -256,7 +238,7 @@ jQuery(document).ready(function($) {
 
     var cab = anime({
       targets: '.cab',
-      translateX: 1000,
+      translateX: 1300,
       loop: true,
       duration: 10000,
       direction: 'alternate',
