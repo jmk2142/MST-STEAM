@@ -688,7 +688,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #initiatives .box h4 {
-  padding: 10px 0 0px 0;
+  padding: 20px 0 0px 0;
   color: white;
   font-size: 24px;
   font-weight: 500;
@@ -756,6 +756,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #initiatives .featured .get-started-btn {
   background: linear-gradient(45deg, #1de099, #1dc8cd);
+}
+
+#initiatives .initiatives-btn {
+  background: #f7ce5b;
+  display: inline-block;
+  padding: 6px 30px;
+  margin-top: 18px;
+  border-radius: 20px;
+  color: #003b5d;
+  transition: none;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Vision Section
