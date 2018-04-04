@@ -194,7 +194,7 @@ jQuery(document).ready(function($) {
 
     var bulb = anime({
       targets: '#bulb',
-      translateY: -20,
+      translateY: -7,
       loop: true,
       direction: 'alternate',
       easing: 'easeInSine'

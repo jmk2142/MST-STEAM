@@ -313,8 +313,27 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   #intro .intro-text {
-    left: calc(10%);
+    left: 0;
     top: calc(25%);
+    height: 50%;
+    width: 100%;
+  }
+
+  #intro .hero-image {
+    display: none;
+  }
+
+  #intro {
+    height: 80vh;
+  }
+
+  #intro .intro-text p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  #intro .container {
+    margin-left: 15px !important;
   }
 }
 

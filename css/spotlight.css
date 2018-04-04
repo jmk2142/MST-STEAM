@@ -4,7 +4,7 @@ Base spotlight concept from http://www.rwe-uk.com/blog/comments/rich_css_spotlig
 Lamp effect supported by Chrome and Safari, but not Firefox. Spotlight effect supported in all three.
 */
 .wrapper {
-  height: calc(80%);
+  height: calc(100%);
   width: calc(80%);
   margin: 0 auto;
   position: relative;
