@@ -705,11 +705,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 20px 10px 20px 10px;
 }
 
-#initiatives h3 {
-  font-weight: 400;
-  margin-bottom: 15px;
-  font-size: 28px;
-}
 
 #initiatives h4 {
   font-size: 46px;
@@ -755,14 +750,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
-}
-
-#initiatives .featured {
-  border: 2px solid #1dc8cd;
-}
-
-#initiatives .featured .get-started-btn {
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
 }
 
 #initiatives .initiatives-btn {
