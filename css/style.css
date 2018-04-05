@@ -668,6 +668,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-bottom: 10px;
 }
 
+#about .about-btn {
+  background: #f7ce5b;
+  display: inline-block;
+  padding: 6px 30px;
+  margin-top: 18px;
+  border-radius: 20px;
+  color: #003b5d;
+  transition: none;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
 #long-history {
   background-color: #003b5d;
   color: white;
@@ -1033,6 +1046,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.4s;
 }
 
+#academic-festival a {
+  color: #3b94d9;
+}
+
 @media (max-width: 767px) {
   #academic-festival .box {
     margin-bottom: 20px;
@@ -1101,6 +1118,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0 0 10px 42px;
   line-height: 28px;
   font-size: 14px;
+}
+
+#learn-more a {
+	color: #3b94d9;
 }
 
 /*--------------------------------------------------------------
