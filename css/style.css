@@ -986,6 +986,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: linear-gradient(45deg, #1de099, #1dc8cd);
 }
 
+#join-us .register-btn {
+		background: #f7ce5b;
+    display: inline-block;
+    padding: 6px 30px;
+		margin: 1em 0 0.5em;
+    border-radius: 1.15em;
+		color: #003b5d;
+    transition: none;
+    font-size: 1.15em;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+		/* transition: all 0.25s ease-in-out; */
+}
+#join-us a.register-btn:hover {
+	background: #003b5d;
+	color: #fff;
+}
+
 /* Academic Festival Section
 --------------------------------*/
 #academic-festival {
