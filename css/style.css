@@ -271,12 +271,18 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* trying to get the building to be as close to the bottom of the 
+    div as possible for screen sizes 1501-1700px
+*/
 @media (min-width: 1501px) and (max-width: 1700px) {
   .tc-building {
     bottom: calc(25% + 5px) !important;
   }
 }
 
+/* trying to get the building to be as close to the bottom of the 
+    div as possible for screen sizes 1366-1500px
+*/
 @media (min-width: 1366px) and (max-width: 1500px) {
   .tc-building {
     bottom: calc(10%) !important;
