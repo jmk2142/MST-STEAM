@@ -261,9 +261,19 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media (min-width: 1200px) {
+   #intro .intro-text {
+      left: calc(8%) !important;
+   }
+}
+
 @media (max-width: 1366px) {
+  #intro .hero-image {
+    /*height: initial !important;*/
+  }
   #intro .hero-image .tc-building {
-    bottom: calc(50% + 10px);
+    /*bottom: calc(50% + 10px);*/
+    bottom: 0 !important;
   }
 
   #intro .hero-image .cab {
@@ -272,16 +282,20 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   #intro .intro-text {
-    left: calc(25%);
+    /*left: calc(25%);*/
+    /*width: 100%;*/
+    /*left: calc(8%) !important;*/
   }
 
-  #intro p {
-    font-size: 14px;
+  .intro-text p {
+    font-size: 20px !important;
+    margin-top: 10px !important;
   }
 
   #intro #steam-logo {
-    width: 65%;
+    /*width: 65%;*/
     height: auto;
+    width: 35vh;
   }
 
   #count-down {
@@ -299,9 +313,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 1200px) {
-  #intro .hero-image .tc-building {
-    /* position: static; */
-    /* bottom: calc(40% + 20px); */
+  #intro .hero-image {
+    height: initial !important;
+  }
+
+  #intro .intro-text {
+    width: 100% !important;
+    left: 0 !important;
+  }
+
+  #intro #steam-logo {
+    width: 50vh;
   }
 
   #intro #count-down, #intro .cab {
