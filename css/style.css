@@ -161,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
 #count-down {
   position: absolute;
   left: calc(67%);
-  top: calc(30%);
+  top: calc(15%);
   text-align: center;
   color: white;
   font-size: 50px;
@@ -248,7 +248,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   #count-down {
-    top: calc(30% + 20px);
+    top: calc(15% + 20px);
     font-size: 80px;
     width: calc(25%);
   }
@@ -261,16 +261,59 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (min-width: 1200px) {
-   #intro .intro-text {
-      left: calc(8%) !important;
-   }
+@media (min-width: 1700px) {
+  #intro .intro-text {
+    top: calc(10%) !important;
+  }
+
+  #countdown {
+    top: calc(25%) !important;
+  }
+}
+
+@media (min-width: 1501px) and (max-width: 1700px) {
+  .tc-building {
+    bottom: calc(25% + 5px) !important;
+  }
+}
+
+@media (min-width: 1366px) and (max-width: 1500px) {
+  .tc-building {
+    bottom: calc(10%) !important;
+  }
+}
+
+@media (min-width: 1366px) {
+  #intro #steam-logo {
+    width: 40vh;
+  }
+
+  #countdown {
+    top: calc(10%) !important;
+  }
+
+  #intro .intro-text {
+    top: calc(15%) !important;
+
+  }
+}
+
+@media (max-width: 1700px) {
+  #count-down {
+    top: calc(25%);
+    font-size: 40px;
+    width: calc(25% + 30px);
+  }
+  #count-down .time-unit {
+    font-size: 52px;
+    padding: 0px 8px;
+  }
+  #count-down .subtitle {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 1366px) {
-  #intro .hero-image {
-    /*height: initial !important;*/
-  }
   #intro .hero-image .tc-building {
     /*bottom: calc(50% + 10px);*/
     bottom: 0 !important;
@@ -278,13 +321,7 @@ h1, h2, h3, h4, h5, h6 {
 
   #intro .hero-image .cab {
     left: calc(1%);
-    top: calc(90% - 10px);
-  }
-
-  #intro .intro-text {
-    /*left: calc(25%);*/
-    /*width: 100%;*/
-    /*left: calc(8%) !important;*/
+    /*top: calc(90% - 10px);*/
   }
 
   .intro-text p {
@@ -293,7 +330,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   #intro #steam-logo {
-    /*width: 65%;*/
     height: auto;
     width: 35vh;
   }
@@ -303,13 +339,22 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 40px;
     width: calc(25% + 30px);
   }
+
   #count-down .time-unit {
     font-size: 40px;
     padding: 0px 8px;
   }
+
   #count-down .subtitle {
     font-size: 20px;
   }
+}
+
+@media (min-width: 1200px) {
+   #intro .intro-text {
+      left: calc(8%) !important;
+      top: calc(15%);
+   }
 }
 
 @media (max-width: 1200px) {
