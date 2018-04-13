@@ -138,7 +138,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro .intro-text {
   position: absolute;
-  left: calc(25%);
+  /* left: calc(25%); */
+	left: 0;
+	right: 0;
   top: calc(10%);
   height: calc(50% - 60px);
   z-index: 22;
@@ -221,17 +223,17 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 2100px) {
   #intro .hero-image .tc-building {
-    left: calc(10%);
+    /* left: calc(10%); */
     bottom: calc(30% + 10px);
   }
 
   #intro .hero-image .cab {
-    left: calc(1%);
+    /* left: calc(1%); */
     top: calc(95% - 10px);
   }
 
   #intro .intro-text {
-    left: calc(20%);
+    /* left: calc(20%); */
   }
 
   #intro p {
@@ -272,7 +274,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* trying to get the building to be as close to the bottom of the 
+/* trying to get the building to be as close to the bottom of the
     div as possible for screen sizes 1501-1700px
 */
 @media (min-width: 1501px) and (max-width: 1700px) {
@@ -281,7 +283,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* trying to get the building to be as close to the bottom of the 
+/* trying to get the building to be as close to the bottom of the
     div as possible for screen sizes 1366-1500px
 */
 @media (min-width: 1366px) and (max-width: 1500px) {
@@ -300,7 +302,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   #intro .intro-text {
-    top: calc(15%) !important;
+    /* top: calc(15%) !important; */
 
   }
 }
@@ -327,8 +329,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   #intro .hero-image .cab {
-    left: calc(1%);
-    /*top: calc(90% - 10px);*/
+    /* left: calc(1%); */
+    top: calc(90% - 10px);
   }
 
   .intro-text p {
@@ -359,7 +361,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 1200px) {
    #intro .intro-text {
-      left: calc(8%) !important;
+      /* left: calc(8%) !important; */
       top: calc(15%);
    }
 }
@@ -1215,6 +1217,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 #learn-more a {
 	color: #3b94d9;
 }
+
+/*--------------------------------------------------------------
+# steam-nasium
+--------------------------------------------------------------*/
+
+.steamnasium-gallery .row {
+	margin-bottom: 1em;
+}
+
 
 /*--------------------------------------------------------------
 # Footer
