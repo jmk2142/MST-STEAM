@@ -1,16 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117049885-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-117049885-1');
-  </script>
-
   <meta charset="utf-8">
   <title>MST STEAM Site</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -598,8 +588,8 @@
 
               <div class="col-lg-4 col-md-6">
                 <div class="gallery-item wow fadeInUp">
-                  <a href="img/steamnasium/People-A-full.jpg" class="gallery-popup">
-                    <img src="img/steamnasium/People-A.jpg" alt="">
+                  <a href="img/steamnasium/People-H-full.jpg" class="gallery-popup">
+                    <img src="img/steamnasium/People-H.jpg" alt="">
                   </a>
                 </div>
               </div>
@@ -833,6 +823,24 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117049885-1"></script>
+
+	<script>
+		//GDPR
+		$(document).ready(function() {
+			console.log(jQuery);
+			$.getScript("https://www.tc.columbia.edu/media/media-library-2015/scripts/gdpr.js");
+		});
+
+		//Analytics
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-117049885-1');
+	</script>
 
 </body>
 </html>
