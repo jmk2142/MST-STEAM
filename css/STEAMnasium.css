@@ -1,0 +1,150 @@
+/* Navbar */
+header{
+	background-color: #163B5A;
+}
+
+
+/* BLUE SECTION + LOGO */
+.logo_blueSection{
+	background-color: #4C667F;
+	height: 366px;
+}
+.STEAMnasium_logo{
+	text-align: center;
+	width: 100%;
+	height: 147%;
+	padding-top: 120px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+
+/* YELLOW SECTION + GENERAL INFORMATION */
+.logo_yellowSection{
+	background-color: #EECC6D;
+	height: 400px;
+}
+.general_info{
+	padding-top: 140px;
+}
+.clock_img{
+	max-width: 35%;
+}
+.Academic_Festival_header{
+	font: 'Gotham Book', Gotham-Bold, Arial, sans-serif;
+	font-weight: bold;
+	color: #163B5A; 
+}
+.MST_Department_header{
+	font: 'Gotham Book', Gotham-Medium, Arial, sans-serif;
+	color: white;
+}
+.twitter_logo{
+	max-width: 9%;
+}
+.STEMWishTree_header{
+	font: 'Gotham Book', Gotham-Medium, Arial, sans-serif;
+	color: #163B5A;
+
+}
+.dropPin_img{
+	max-width:30%
+}
+.event_info{
+	font: 'Gotham Book', Gotham-Book, Arial, sans-serif;
+	color: #4C667F;
+	opacity: .73;
+}
+
+
+/* EVENT STATIONS */
+.station_section{
+	/*height: 500px;*/
+	padding-top: 52.5px;
+	padding-left: 120px;
+	padding-right: 120px;
+	padding-bottom: 52.5px;
+}
+.station_header{
+	font: 'Gotham Book', Gotham-Bold, Arial, sans-serif;
+	background-color: #4C667F;
+	color: white;
+}
+.blue_stations{
+	background-color: #163B5A;
+	color: #FDF3A7;
+	padding: 5px;
+}
+.blue_stations p{
+	font-size: 12px;
+}
+.yellow_stations{
+	background-color: #FDF3A7;
+	color: #4C667F;
+	padding: 5px;
+}
+.yellow_stations p{
+	font-size: 12px;
+}
+.station_number{
+	font: 'Gotham Book', Gotham-Bold, Arial, sans-serif;
+	font-weight: bolder;
+}
+
+
+/* QUOTES */
+.quote_img_container {
+	background-color: #163B5A;
+}
+.quote_img_container img{
+	height: 15%;
+}
+.quote_centered {
+	font: 'Gotham Book', Gotham-Book, Arial, sans-serif;
+	color: #FDF3A7;
+	font-size: 20px;
+	/*font-weight: bold;*/
+}
+.quote_imgRight{
+	position: relative;
+	top: 105px;
+}
+
+
+/* LIVE STREAM */
+.liveStream_headers{
+	background-color: #FDF3A7;
+}
+.YouTube_logo{
+	max-width: 40px;
+}
+.liveStream_headers h2{
+	font: 'Gotham Book', Gotham-Bold, Arial, sans-serif;
+	font-weight: bolder;
+	color: #163B5A; 
+}
+.liveStream_headers h4{
+	font: 'Gotham Book', Gotham-Bold, Arial, sans-serif;
+	font-weight: bolder;
+	color: #4C667F; 
+	opacity: .73; 
+}
+.liveStream_imgs{
+	background-color: #FDF3A7;
+}
+.liveStream_imgs img{
+	max-width: 100%;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.twitter_headers{
+	font: 'Gotham Book', Gotham-Bold, Arial, sans-serif;
+	font-weight: bolder;
+	color: #163B5A; 
+}
+.twitter_liveChat{
+	
+}
+
+
+

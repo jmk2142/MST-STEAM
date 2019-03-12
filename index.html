@@ -26,6 +26,9 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
   <link href="css/spotlight.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/STEAMnasium_landingPage.css">
+
+
 </head>
 
 <body>
@@ -44,10 +47,10 @@
           <li class="menu-active"><a href="#intro">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#vision">Vision</a></li>
-          <li class="menu-has-children"><a href="#academic-festival">Academic Festival</a>
+          <li class="menu-has-children"><a href="#academic-festival">STEAM-nasium</a>
             <ul>
-              <li><a href="#panel-discussion">STEAM Learning In and Out of School</a></li>
-              <li><a href="#steam-nasium">Explore the STEAM-nasium</a></li>
+              <li><a href="STEAMnasium.html">STEAM-nasium 2019</a></li>
+              <li><a href="#steam-nasium">STEAM-nasium 2018</a></li>
               <li><a href="#steam-wish-tree">STEAM Wish Tree</a></li>
             </ul>
           </li>
@@ -56,6 +59,23 @@
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
+
+
+  <!--==========================
+    Modal Content
+  ============================-->
+   <div id="myModal" class="modal fade bd-example-modal-lg" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-body px-0 py-0 text-center landing_pg_img">
+          <img onclick="window.location.href = 'STEAMnasium.html';" src="img/STEAMnasium_2019/landing_page/landing-page.png">
+          <button type="button" class="close_button" style="background-image: url(img/STEAMnasium_2019/landing_page/close-icon.png);" data-dismiss="modal"></button>  
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!--==========================
     Intro Section
@@ -823,6 +843,8 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+  <script src="js/modal_STEAMnasium_2019.js"></script>
+
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117049885-1"></script>

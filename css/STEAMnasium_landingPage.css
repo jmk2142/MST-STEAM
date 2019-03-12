@@ -1,0 +1,18 @@
+/* STEAMnasium Modal Landing page */
+.modal-body {
+  /*background-color: #FDF3A7;*/
+}
+.landing_pg_img img{
+  max-width: 100%;
+  position: relative;
+} 
+.close_button{ 
+  float: right;
+  background-size: 45px 45px; /*width then height*/
+  width: 45px;
+  height: 45px;  
+  border: none;
+  position: absolute;
+  right: 35px;
+  top: 30px;
+}
