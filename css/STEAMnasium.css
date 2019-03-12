@@ -27,7 +27,7 @@ header{
 /* YELLOW SECTION + GENERAL INFORMATION */
 .logo_yellowSection{
 	background-color: #EECC6D;
-	height: 400px;
+	/*height: 500px;*/
 }
 .general_info{
 	padding-top: 140px;
@@ -58,6 +58,16 @@ header{
 	font-family: "Montserrat", sans-serif;
 	color: #4C667F;
 	opacity: .73;
+}
+.STEMlogos{
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+.Academic_Festival_logo{
+	max-width: 30%;
+}
+.MST_logo{
+	max-width: 21%;
 }
 
 
@@ -140,10 +150,16 @@ header{
 	padding-left: 100px;
 	padding-right: 100px;
 }
-.twitter_headers{
+.twitter_headers h2{
 	font-family: "Montserrat", sans-serif;
 	font-weight: bolder;
 	color: #163B5A; 
+}
+.twitter_headers h4{
+	font-family: "Montserrat", sans-serif;
+	font-weight: bolder;
+	color: #4C667F; 
+	opacity: .73; 
 }
 
 
