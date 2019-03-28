@@ -9,31 +9,20 @@ header{
 }
 
 
-/* BLUE SECTION + LOGO */
-.logo_blueSection{
-	background-color: #4C667F;
-	height: 366px;
+/* STEAMnasium LOGO + LOGO */
+.STEAMnasium_logoSection{
+	background-image: url(../img/STEAMnasium_2019/STEAMnasium_Logo_Background.png); 
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 .STEAMnasium_logo{
-	text-align: center;
-	width: 100%;
-	height: 147%;
-	padding-top: 120px;
-	padding-left: 100px;
-	padding-right: 100px;
+	max-width: 100%;
 }
 
 
 /* YELLOW SECTION + GENERAL INFORMATION */
 .logo_yellowSection{
 	background-color: #EECC6D;
-	/*height: 500px;*/
-}
-.general_info{
-	padding-top: 140px;
-}
-.clock_img{
-	max-width: 35%;
 }
 .Academic_Festival_header{
 	font-family: "Montserrat", sans-serif;
@@ -44,38 +33,39 @@ header{
 	font-family: "Montserrat", sans-serif;
 	color: white;
 }
-.twitter_logo{
-	max-width: 9%;
+.STEMlogos{
+	/*padding-top: 50px;*/
+	/*padding-bottom: 40px;*/
 }
-.STEMWishTree_header{
+.STEMlogos{
+	max-width: 100%;
+}
+.acknowledgements p{
 	font-family: "Montserrat", sans-serif;
-	color: #163B5A;
+	color: #163B5A; 
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	border-color: #163B5A; 
+}
+
+
+/* GENERAL INFORMATION */
+.clock_img{
+	max-width: 13%;
 }
 .dropPin_img{
-	max-width:30%
+	max-width:12%
 }
 .event_info{
 	font-family: "Montserrat", sans-serif;
 	color: #4C667F;
 	opacity: .73;
 }
-.STEMlogos{
-	padding-top: 50px;
-	padding-bottom: 40px;
-}
-.Academic_Festival_logo{
-	max-width: 30%;
-}
-.MST_logo{
-	max-width: 21%;
-}
 
 
 /* EVENT STATIONS */
 .station_section{
 	padding-top: 52.5px;
-	padding-left: 120px;
-	padding-right: 120px;
 	padding-bottom: 52.5px;
 }
 .station_header{
@@ -109,57 +99,46 @@ header{
 .quote_img_container {
 	background-color: #163B5A;
 }
-.quote_img_container img{
+/*.quote_img_container img{
 	height: 15%;
-}
+}*/
 .quote_centered {
 	font-family: "Montserrat", sans-serif;
 	color: #FDF3A7;
 	font-size: 20px;
-	/*font-weight: bold;*/
+}
+.quote{
+	width: 100%;
 }
 .quote_imgRight{
 	position: relative;
 	top: 105px;
+	width: 100%;
 }
 
 
 /* LIVE STREAM */
-.liveStream_headers{
+.LiveStream_Section{
 	background-color: #FDF3A7;
 }
-.YouTube_logo{
-	max-width: 40px;
+.Logo_header{
+	max-width: 100%;
 }
-.liveStream_headers h2{
+.LiveStream_Section h2{
 	font-family: "Montserrat", sans-serif;
 	font-weight: bolder;
 	color: #163B5A; 
 }
-.liveStream_headers h4{
+.LiveStream_Section h4{
 	font-family: "Montserrat", sans-serif;
 	font-weight: bolder;
 	color: #4C667F; 
 	opacity: .73; 
 }
-.liveStream_imgs{
-	background-color: #FDF3A7;
-}
-.liveStream_imgs img{
+.LiveStream_imgs img{
 	max-width: 100%;
 	padding-left: 100px;
 	padding-right: 100px;
-}
-.twitter_headers h2{
-	font-family: "Montserrat", sans-serif;
-	font-weight: bolder;
-	color: #163B5A; 
-}
-.twitter_headers h4{
-	font-family: "Montserrat", sans-serif;
-	font-weight: bolder;
-	color: #4C667F; 
-	opacity: .73; 
 }
 
 
