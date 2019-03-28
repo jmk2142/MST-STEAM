@@ -34,10 +34,6 @@ header{
 	color: white;
 }
 .STEMlogos{
-	/*padding-top: 50px;*/
-	/*padding-bottom: 40px;*/
-}
-.STEMlogos{
 	max-width: 100%;
 }
 .acknowledgements p{
@@ -99,20 +95,7 @@ header{
 .quote_img_container {
 	background-color: #163B5A;
 }
-/*.quote_img_container img{
-	height: 15%;
-}*/
-.quote_centered {
-	font-family: "Montserrat", sans-serif;
-	color: #FDF3A7;
-	font-size: 20px;
-}
 .quote{
-	width: 100%;
-}
-.quote_imgRight{
-	position: relative;
-	top: 105px;
 	width: 100%;
 }
 
