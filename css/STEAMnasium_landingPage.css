@@ -1,10 +1,13 @@
 /* STEAMnasium Modal Landing page */
 
 .modal-body{ 
-    background-color: #FDF3A7;
+    background-color: #5C7089;
 }
 .close_button{
-  color: #163B5A;
+	font-family: "Montserrat", sans-serif;
+	font-size: 50px;
+	font-weight: normal;
+	color: #FDF3A7;
 }
 .landing_pg_img img{
   max-width: 100%;

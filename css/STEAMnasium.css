@@ -9,9 +9,9 @@ header{
 }
 
 
-/* STEAMnasium LOGO + LOGO */
-.STEAMnasium_logoSection{
-	background-image: url(../img/STEAMnasium_2019/STEAMnasium_Logo_Background.png); 
+/* BLUE SECTION + LOGO */
+.logo_blueSection{
+	background-image: url(../img/STEAMnasium_2019/STEAMnasium_Logo_Background.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
@@ -27,21 +27,14 @@ header{
 .Academic_Festival_header{
 	font-family: "Montserrat", sans-serif;
 	font-weight: bold;
-	color: #163B5A; 
+	color: #163B5A;
 }
 .MST_Department_header{
 	font-family: "Montserrat", sans-serif;
 	color: white;
 }
-.STEMlogos{
-	max-width: 100%;
-}
-.acknowledgements p{
-	font-family: "Montserrat", sans-serif;
-	color: #163B5A; 
-	border-top: 1px solid;
-	border-bottom: 1px solid;
-	border-color: #163B5A; 
+.STEMlogos img{
+	width: 100%;
 }
 
 
@@ -110,22 +103,16 @@ header{
 .LiveStream_Section h2{
 	font-family: "Montserrat", sans-serif;
 	font-weight: bolder;
-	color: #163B5A; 
+	color: #163B5A;
 }
 .LiveStream_Section h4{
 	font-family: "Montserrat", sans-serif;
 	font-weight: bolder;
-	color: #4C667F; 
-	opacity: .73; 
+	color: #4C667F;
+	opacity: .73;
 }
 .LiveStream_imgs img{
 	max-width: 100%;
 	padding-left: 100px;
 	padding-right: 100px;
 }
-
-
-
-
-
-
