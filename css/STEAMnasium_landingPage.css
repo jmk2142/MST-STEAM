@@ -1,35 +1,19 @@
 /* STEAMnasium Modal Landing page */
-/*
-.modal-body{ 
+
+.modal-content, .modal-body, .modal-header { 
     background-color: #5C7089;
 }
 .close_button{
 	font-family: "Montserrat", sans-serif;
-	font-size: 50px;
+	font-size: 2rem;
 	font-weight: normal;
 	color: #FDF3A7;
-}
-.landing_pg_img img{
-  max-width: 100%;
-  position: relative;
-} 
-*/
-
-.modal-body {
-  /*background-color: #FDF3A7;*/
-}
-.landing_pg_img img{
-  max-width: 100%;
-  position: relative;
-} 
-.close_button{ 
-	z-index: 100;
-  float: right;
-  background-size: 45px 45px; /*width then height*/
-  width: 45px;
-  height: 45px;  
-  border: none;
+  z-index: 100;
   position: absolute;
-  right: 35px;
-  top: 30px;
+  right: 5%;
+}
+
+.landing_pg_img img{
+  max-width: 100%;
+  position: relative;
 } 
