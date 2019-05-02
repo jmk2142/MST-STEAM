@@ -11,7 +11,7 @@ header{
 
 /* BLUE SECTION + LOGO */
 .logo_blueSection{
-	background-image: url(../img/STEAMnasium_2019/STEAMnasium_Logo_Background.png);
+	background-image: url(../../img/STEAMnasium_2019/page_content/STEAMnasium_Logo_Background.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
@@ -110,8 +110,4 @@ header{
 	font-weight: bolder;
 	color: #4C667F;
 	opacity: .73;
-}
-.livestream_video iframe{
-/*	width: 100%;
-	height: 100%;*/
 }
