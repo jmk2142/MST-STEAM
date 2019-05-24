@@ -93,12 +93,17 @@ header{
 }
 
 
-/* LIVE STREAM */
+/* LIVE STREAM SECTION*/
 .LiveStream_Section{
 	background-color: #FDF3A7;
 }
 .Logo_header{
 	max-width: 100%;
+}
+.LiveStream_Section .TCStory h2{
+	font-family: "Montserrat", sans-serif;
+	font-weight: bolder;
+	color: #163B5A;
 }
 .LiveStream_Section h2{
 	font-family: "Montserrat", sans-serif;
@@ -111,3 +116,11 @@ header{
 	color: #4C667F;
 	opacity: .73;
 }
+#arrow{
+    width: 100%;
+}
+
+
+
+
+
