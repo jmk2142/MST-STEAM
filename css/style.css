@@ -800,6 +800,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
   background: #778998;
   text-align: center;
+	height: 100%;
 }
 
 #initiatives .box h4 {
@@ -1312,4 +1313,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .text-white {
   color: white;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+	margin-bottom: 30px;
 }
