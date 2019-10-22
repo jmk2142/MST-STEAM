@@ -50,6 +50,18 @@ header{
 	color: #4C667F;
 	opacity: .73;
 }
+.event_info_fall{
+	font-family: "Montserrat", sans-serif;
+	color: white;
+	opacity: .73;
+	/*font-weight: bold;*/
+}
+.disclaimer{
+	font-family: "Montserrat", sans-serif;
+	color: white;
+	opacity: .73;
+	text-align: center;
+}
 
 
 /* EVENT STATIONS */
