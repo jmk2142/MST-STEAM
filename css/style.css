@@ -1322,3 +1322,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   display:         flex;
 	margin-bottom: 30px;
 }
+
+/* TC LOGO resize */
+[src$="logo-new-alt.png"] {
+	height: 32px;
+}

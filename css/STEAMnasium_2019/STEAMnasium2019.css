@@ -128,11 +128,6 @@ header{
 	color: #4C667F;
 	opacity: .73;
 }
-#arrow{
-    width: 100%;
+.steamnasium-arrow {
+    width: 75%;
 }
-
-
-
-
-
