@@ -47,8 +47,9 @@
           <li><a href="#vision">Vision</a></li>
           <li class="menu-has-children"><a href="STEAMnasium_2019_fall.html">STEAMnasium</a>
             <ul>
-              <li><a href="./STEAMnasium_2019_fall.html">STEAMnasium FALL 2019</a></li>
+              <li><a href="./STEAMnasium_2020_fall.html">STEAMnasium FALL 2020</a></li>
               <li><a href="./STEAMnasium_2019_spring.html">STEAMnasium SPRING 2019</a></li>
+              <li><a href="./STEAMnasium_2019_fall.html">STEAMnasium FALL 2019</a></li>
               <li><a href="./STEAMnasium_2018.html">STEAMnasium 2018</a></li>
             </ul>
           </li>
@@ -67,20 +68,42 @@
     <!-- STYLING -->
     <!-- <link rel="stylesheet" type="text/css" href="css/STEAMnasium_2019/STEAMnasium2019_landingPage.css"> -->
 
-     <!-- HTML BOOTSTRAP CODE -->
-     <!-- <div id="myModal" class="modal fade bd-example-modal-lg" role="dialog">
-      <div class="modal-dialog modal-lg">
+
+
+    <!-- HTML BOOTSTRAP CODE -->
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
         <div class="modal-content">
-              <button type="button" class="close close_button pt-2 pb-5" data-dismiss="modal" aria-label="Close">X</button>
-            <div class="modal-body px-0 pt-4 pb-0 landing_pg_img"> -->
-                <!-- <img src="img/STEAMnasium_2019/landing_page_Spring/landing-page.png"> -->
-                <!-- <img onclick="window.location.href = 'STEAMnasium_2019_fall.html';" src="img/STEAMnasium_2019/landing_page_Spring/landing-page.png">
+          <div class="modal-header">
+            <h5 class="modal-title">Students, Teachers, Parents...</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <img src="img\STEAMnasium_2019\page_content\STEAMnasium_Logo.png" alt="STEAMnasium Logo" style="width:100%;">
+          <div class="modal-body">
+            <div class="text-center">
+              <h3 class="section-title">
+                <strong>Virtual STEAMnasium</strong><br><small>August 10-14, 2020</small>
+              </h3>
             </div>
           </div>
+          <div class="modal-body details">
+            <p class="lead">Bringing STEM Camp to you… Virtually!</p>
+            <p>Access fun, engaging, and playful science, technology, engineering, mathematics, and art-infused STEAM activities to do at home! Materials are low-cost or you can find them in your home or local dollar store!<p>
+            <p>Virtual Stations created by Teachers College faculty and students. <a href="https://www.tc.columbia.edu/mathematics-science-and-technology/">Department of Mathematics, Science and Technology</a></p>
+            <p>Visit <a href="STEAMnasium_2020_fall.html">STEAMnasium - Fall 2020</a> to Play and Learn!<br>
+              Click each Station Link to access the activity.
+            </p>
+            <p>Have lots of fun and Enjoy!</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSemWichbIvL6JuB2waSlC4jKKUOiACRn2Y9xWHHqkEmkKwTWw/viewform">REGISTER</a>
+          </div>
+        </div>
       </div>
     </div>
-
- -->
 
 
   <!--==========================
@@ -214,7 +237,7 @@
 							<p class="section-description">
 								Download the PDF to learn more about our commitment to STEAM Education in MST, and at TC.
 								<br>
-								<a href="STEAM_Initiatives.pdf" class="about-btn text-center" target="_blank"><i class="ion-android-document"></i>&nbsp; DOWNLOAD: STEAM Initiatives</a>
+								<a href="pdf/STEAM_Initiatives.pdf" class="about-btn text-center" target="_blank"><i class="ion-android-document"></i>&nbsp; DOWNLOAD: STEAM Initiatives</a>
 							</p>
 
             </div>
@@ -536,7 +559,9 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
-  <script src="js/modal_STEAMnasium_2019.js"></script>
+  <script>
+    $('#myModal').modal('show');
+  </script>
 
 
   <!-- Global site tag (gtag.js) - Google Analytics -->

@@ -1327,3 +1327,25 @@ body.mobile-nav-active #mobile-nav-toggle {
 [src$="logo-new-alt.png"] {
 	height: 32px;
 }
+
+/*--------------------------------------------------------------
+# OPENING MODAL SECTION
+--------------------------------------------------------------*/
+#myModal .modal-body {
+  background-color: #eecc6c;
+}
+#myModal .modal-header {
+  border-bottom-width: 0px;
+}
+#myModal .modal-footer {
+  border-top-width: 0px;
+}
+#myModal .modal-body.details {
+  background-color: #FFFFFF;
+}
+#myModal .modal-body.details a {
+  color: #3b94d9;
+}
+#myModal .modal-body.details > .lead {
+  font-weight: bold;
+}
