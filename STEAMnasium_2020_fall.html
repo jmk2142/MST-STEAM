@@ -196,13 +196,50 @@
 
 
 	<!-- STATIONS -->
-	<div class="container mb-0">
+	<div class="container">
 		<div class="row">
 			<div class="col text-center">
 				<h1 class="Academic_Festival_header mt-5">
-					Virtual STEAMnasium Station Descriptions
+					Virtual STEAMnasium Stations
 				</h1>
-				<p class="lead mb-0">Fun, engaging, and playful! Here are some low-cost science, technology, engineering, mathematics, and art-infused STEAM activities you can do from the comfort of your home.</p>
+				<p class="lead">Fun, engaging, and playful! Here's how you can participate in the science, technology, engineering, mathematics, and art-infused STEAM activities from the comfort of your home.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<div class="card">
+					<div class="card-body">
+						<h2 class="text-center">Step 1</h2>
+						<p>
+							<a class="btn btn-block btn-sm btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfM1FoGxRrAF4x9sIT1ErrJH2GSwlfLkh5xPrQEi7YaIBEtBA/viewform"><i class="fa fa-fw fa-external-link"></i> Let's get started!</a>
+						</p>
+						<p>Complete the Intro Questions before you start your exploration.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<div class="card-body">
+						<h2 class="text-center">Step 2</h2>
+						<p class="d-flex justify-content-between">
+							<a class="btn btn-primary btn-sm" href="https://www.facebook.com/hashtag/steamnasium" target="_blank"><i class="fa fa-facebook-official"></i> Share</a>
+							<a class="btn btn-primary btn-sm" href="https://twitter.com/hashtag/steamnasium" target="_blank"><i class="fa fa-twitter-square"></i> Share</a>
+							<a class="btn btn-primary btn-sm" href="https://www.instagram.com/explore/tags/steamnasium" target="_blank"><i class="fa fa-instagram"></i> Share</a>
+						</p>
+						<p>Post <i class="fa fa-comment"></i>, <i class="fa fa-camera"></i>, and <i class="fa fa-video-camera"></i> with hashtag <span class="badge badge-secondary">#STEAMNASIUM2020</span> as you play.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<div class="card-body">
+						<h2 class="text-center">Step 3</h2>
+						<p>
+							<a id="outro-btn" class="btn btn-block btn-sm btn-primary disabled" href="https://docs.google.com/forms/d/e/1FAIpQLScD6VqbliWHBt6sVCUwMxaDpBKNjpOp-1iO8v7sXceJ1En7Lg/viewform"><i class="fa fa-fw fa-external-link"></i> Complete + Win Prizes</a>
+						</p>
+						<p>Complete the Outro Questions for a chance to win cool stuff!</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -389,6 +426,7 @@
 				el.textContent = "Visit Activity";
 				el.parentElement.classList.remove("disabled");
 			});
+			document.querySelector("#outro-btn").classList.remove("disabled");
 		}
 
 
