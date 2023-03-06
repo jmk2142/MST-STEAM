@@ -1,0 +1,198 @@
+body{
+	font-family: "Open Sans", sans-serif;
+}
+
+
+/* Navbar */
+header{
+	background-color: #163c5a;
+}
+
+
+/* BLUE SECTION + LOGO */
+.logo_blueSection{
+	background-image: url(../img/STEAMnasium_2019/page_content/STEAMnasium_Logo_Background.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.STEAMnasium_logo{
+	max-width: 100%;
+}
+
+
+/* YELLOW SECTION + GENERAL INFORMATION */
+.logo_yellowSection{
+	background-color: #EECC6D;
+}
+.Academic_Festival_header{
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+	color: #163B5A;
+}
+.MST_Department_header{
+	font-family: "Montserrat", sans-serif;
+	color: white;
+}
+.STEMlogos img{
+	width: 100%;
+}
+
+
+/* GENERAL INFORMATION */
+.clock_img{
+	max-width: 13%;
+}
+.dropPin_img{
+	max-width:12%
+}
+.event_info{
+	font-family: "Montserrat", sans-serif;
+	color: #4C667F;
+	opacity: .73;
+}
+.event_info_fall{
+	font-family: "Montserrat", sans-serif;
+	color: white;
+	opacity: .73;
+	/*font-weight: bold;*/
+}
+.disclaimer{
+	font-family: "Montserrat", sans-serif;
+	color: white;
+	opacity: .73;
+	text-align: center;
+}
+
+
+/* EVENT STATIONS */
+.station_section{
+	padding-top: 52.5px;
+	padding-bottom: 52.5px;
+}
+.station_header{
+	font-family: "Montserrat", sans-serif;
+	background-color: #4C667F;
+	color: white;
+}
+.green_station{
+    background-color: #429d75;
+    color: #FDF3A7;
+    padding: 5px;
+}
+.green_station p{
+    font-size: 12px;
+}
+.red_station{
+    background-color: #f9685d;
+    color: #395066;
+    padding: 5px;
+}
+.red_station p{
+    font-size: 12px;
+}
+.orange_station{
+    background-color: #ea9e47;
+    color: #FDF3A7;
+    padding: 5px;
+}
+.orange_station p{
+    font-size: 12px;
+}
+.gold_station{
+    background-color: #eddc5d;
+    color: #4C667F;
+    padding: 5px;
+}
+.gold_station p{
+    font-size: 12px;
+}
+.purple_station{
+    background-color: #623e74;
+    color: #FDF3A7;
+    padding: 5px;
+}
+.purple_station p{
+    font-size: 12px;
+}
+.pink_station{
+    background-color: #ff9bd0;
+    color: #4C667F;
+    padding: 5px;
+}
+.pink_station p{
+    font-size: 12px;
+}
+.dark_blue_station{
+	background-color: #1d4263;
+	color: #FDF3A7;
+	padding: 5px;
+}
+.dark_blue_station p{
+	font-size: 12px;
+}
+.gray_station{
+	background-color: #b8b8b8;
+	color: #4C667F;
+	padding: 5px;
+}
+.gray_station p{
+	font-size: 12px;
+}
+
+.blue_stations{
+	background-color: #163B5A;
+	color: #FDF3A7;
+	padding: 5px;
+}
+.blue_stations p{
+	font-size: 12px;
+}
+.yellow_stations{
+	background-color: #F0CE6E;
+	color: #4C667F;
+	padding: 5px;
+}
+.yellow_stations p{
+	font-size: 12px;
+}
+.station_number{
+	font-family: "Montserrat", sans-serif;
+	font-weight: bolder;
+}
+
+
+/* QUOTES */
+.quote_img_container {
+	background-color: #163B5A;
+}
+.quote{
+	width: 100%;
+}
+
+
+/* LIVE STREAM SECTION*/
+.LiveStream_Section{
+	background-color: #FDF3A7;
+}
+.Logo_header{
+	max-width: 100%;
+}
+.LiveStream_Section .TCStory h2{
+	font-family: "Montserrat", sans-serif;
+	font-weight: bolder;
+	color: #163B5A;
+}
+.LiveStream_Section h2{
+	font-family: "Montserrat", sans-serif;
+	font-weight: bolder;
+	color: #163B5A;
+}
+.LiveStream_Section h4{
+	font-family: "Montserrat", sans-serif;
+	font-weight: bolder;
+	color: #4C667F;
+	opacity: .73;
+}
+.steamnasium-arrow {
+    width: 75%;
+}
