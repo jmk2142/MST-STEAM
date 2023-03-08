@@ -1,0 +1,159 @@
+body{
+	font-family: "Open Sans", sans-serif;
+}
+
+
+/* Navbar */
+header{
+	background-color: #163c5a;
+}
+
+
+/* BLUE SECTION + LOGO 
+.logo_blueSection{
+	background-image: url(../img/STEAMnasium_2019/page_content/STEAMnasium_Logo_Background.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.STEAMnasium_logo{
+	max-width: 100%;
+}
+*/
+
+
+
+/* YELLOW SECTION + GENERAL INFORMATION 
+.logo_yellowSection{
+	background-color: #EECC6D;
+}
+.Academic_Festival_header{
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+	color: #163B5A;
+}
+.MST_Department_header{
+	font-family: "Montserrat", sans-serif;
+	color: white;
+}
+.STEMlogos img{
+	width: 100%;
+}
+
+*/
+
+
+/* GENERAL INFORMATION 
+.clock_img{
+	max-width: 13%;
+}
+.dropPin_img{
+	max-width:12%
+}
+.event_info{
+	font-family: "Montserrat", sans-serif;
+	color: #4C667F;
+	opacity: .73;
+}
+.event_info_fall{
+	font-family: "Montserrat", sans-serif;
+	color: white;
+	opacity: .73;
+	/*font-weight: bold;* /
+}
+*/
+
+.disclaimer{
+	font-family: "Montserrat", sans-serif;
+	color: white;
+	opacity: .73;
+	text-align: center;
+}
+
+h2, h3, h4{
+    text-align: center;
+}
+
+h4{
+    font-size: 24px;
+}
+
+/* EVENT STATIONS */
+.station_section{
+	padding-top: 52.5px;
+	padding-bottom: 52.5px;
+}
+
+
+
+.green_station{
+    background-color: #429d75;
+    color: #FDF3A7;
+    padding: 5px;
+}
+.green_station p{
+    font-size: 12px;
+}
+.red_station{
+    padding-top: 25.5px;
+	padding-bottom: 25.5px;
+}
+.red_station p{
+    font-size: 16px;
+}
+
+.gold_station{
+    padding-top: 25.5px;
+	padding-bottom: 25.5px;
+}
+.gold_station p{
+    font-size: 16px;
+}
+
+.purple_station{
+    padding-top: 25.5px;
+	padding-bottom: 25.5px;
+}
+.purple_station p{
+    font-size: 12px;
+}
+.purple_station h2{
+    color: #623e74;
+    text-align: center;
+    padding: 20px 0;
+}
+.purple_station h4{
+    color: #303030;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.pink_station{
+    
+    padding: 5px;
+}
+.pink_station p{
+    font-size: 12px;
+}
+
+.gray_station{
+
+	padding: 5px;
+}
+.gray_station p{
+	font-size: 12px;
+}
+
+.station_image{
+    max-width: 50%;
+}
+.header_purple{
+	background-image: url(../img/STEAMnasium_2023/Stations/tessellations.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.header_pink{
+	background-image: url(../img/STEAMnasium_2023/Stations/Elementary_STEAM.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
