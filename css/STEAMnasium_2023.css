@@ -22,7 +22,7 @@ header{
 
 /* YELLOW SECTION + GENERAL INFORMATION */
 .logo_yellowSection{
-	background-color: #EECC6D;
+	background-color: #eecc6d;
 }
 .Academic_Festival_header{
 	font-family: "Montserrat", sans-serif;
@@ -76,7 +76,7 @@ header{
 }
 .green_station{
     background-color: #429d75;
-    color: #FDF3A7;
+    color: #ffffff;
     padding: 5px;
 }
 .green_station p{
@@ -84,23 +84,23 @@ header{
 }
 .red_station{
     background-color: #f9685d;
-    color: #395066;
+    color: #ffffff;
     padding: 5px;
 }
 .red_station p{
     font-size: 12px;
 }
 .orange_station{
-    background-color: #ea9e47;
-    color: #FDF3A7;
+    background-color: #e6973c;
+    color: #ffffff;
     padding: 5px;
 }
 .orange_station p{
     font-size: 12px;
 }
 .gold_station{
-    background-color: #eddc5d;
-    color: #4C667F;
+    background-color: #eac45a;
+    color: #ffffff;
     padding: 5px;
 }
 .gold_station p{
@@ -108,7 +108,7 @@ header{
 }
 .purple_station{
     background-color: #623e74;
-    color: #FDF3A7;
+    color: #ffffff;
     padding: 5px;
 }
 .purple_station p{
@@ -116,7 +116,7 @@ header{
 }
 .pink_station{
     background-color: #ff9bd0;
-    color: #4C667F;
+    color: #ffffff;
     padding: 5px;
 }
 .pink_station p{
@@ -124,7 +124,7 @@ header{
 }
 .dark_blue_station{
 	background-color: #1d4263;
-	color: #FDF3A7;
+	color: #ffffff;
 	padding: 5px;
 }
 .dark_blue_station p{
@@ -132,13 +132,13 @@ header{
 }
 .gray_station{
 	background-color: #b8b8b8;
-	color: #4C667F;
+	color: #ffffff;
 	padding: 5px;
 }
 .gray_station p{
 	font-size: 12px;
 }
-
+/*
 .blue_stations{
 	background-color: #163B5A;
 	color: #FDF3A7;
@@ -154,7 +154,7 @@ header{
 }
 .yellow_stations p{
 	font-size: 12px;
-}
+}*/
 .station_number{
 	font-family: "Montserrat", sans-serif;
 	font-weight: bolder;
