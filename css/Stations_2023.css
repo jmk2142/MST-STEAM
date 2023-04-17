@@ -77,33 +77,71 @@ h4{
     font-size: 24px;
 }
 
+.station-title{
+    padding-top: 36px;
+}
+
 /* EVENT STATIONS */
 .station_section{
 	padding-top: 52.5px;
 	padding-bottom: 52.5px;
 }
+.station_image{
+    display: block;
+    margin: 0 auto;
+}
 
+/* Image grid code */
+.column{
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.grid_image{
+    margin-top: 12px;
+}
 
+.row:after{
+    content: "";
+    clear: both;
+    margin-bottom: 4px;
+}
 
 .green_station{
-    background-color: #429d75;
-    color: #FDF3A7;
-    padding: 5px;
+    background-color: #b6ebd3;
+    padding-bottom: 32px;
 }
-.green_station p{
-    font-size: 12px;
-}
+
 .red_station{
-    padding-top: 25.5px;
-	padding-bottom: 25.5px;
+    background-color: #ffe3e3;
+    padding-bottom: 32px;
+}
+.red_station img{
+    padding-top: 10px;
+	padding-bottom: 10px;
 }
 .red_station p{
     font-size: 16px;
 }
+.red_station a{
+    color: #b81f1f;
+}
+.red_station a:hover {
+    color: #f55d5d;
+    text-decoration: underline;
+}
+.red_station h4{
+    text-align: center;
+}
+
+.orange_station{
+    background-color: #ffdabd;
+    padding-bottom: 20px;
+}
 
 .gold_station{
-    padding-top: 25.5px;
-	padding-bottom: 25.5px;
+    background-color: #fffad8;
+    padding-bottom: 20px;
 }
 .gold_station p{
     font-size: 16px;
@@ -112,48 +150,82 @@ h4{
 .purple_station{
     padding-top: 25.5px;
 	padding-bottom: 25.5px;
+    background-color:#cbbbd4;
 }
 .purple_station p{
-    font-size: 12px;
+    font-size: 16px;
 }
-.purple_station h2{
-    color: #623e74;
+.header_purple h2{
+    color: #850bdd;
     text-align: center;
-    padding: 20px 0;
+    padding-top: 160px;
+    text-shadow: 2px 2px 6px #ededed;
 }
-.purple_station h4{
+.header_purple h4{
     color: #303030;
     text-align: center;
-    padding: 20px 0;
+    padding-top: 10px;
+    font-size: 22px;
+    text-shadow: 2px 2px 5px #ededed;
+}
+.purple_station_image{
+    max-width: 80%;
+    padding-bottom: 15px;
+}
+.purple_station a:hover{
+    opacity: .5;
+}
+.purple_station a {
+    color: #5f2295;
+}
+.purple_station a:hover {
+    color: #a22cdd;
+    text-decoration: underline;
 }
 
 .pink_station{
-    
-    padding: 5px;
+    /* padding-top: 25.5px; */
+	padding-bottom: 25.5px;
+    background-color: #ffdcec;
 }
 .pink_station p{
-    font-size: 12px;
+    font-size: 14px;
+}
+.activities{
+    padding-top: 25px;
+}
+
+
+.darkblue_station{
+    padding-top: 25.5px; 
+	padding-bottom: 25.5px;
+    background-color: #c7c7e7;
 }
 
 .gray_station{
-
-	padding: 5px;
+    padding-top: 25.5px;
+	padding-bottom: 25.5px;
+    background-color: #d0d0d0;
 }
 .gray_station p{
 	font-size: 12px;
 }
-
-.station_image{
-    max-width: 50%;
+.gray_station_image {
+	padding-bottom: 10px;
 }
+
+/* .station_image{
+    max-width: 50%;
+} */
+
 .header_purple{
-	background-image: url(../img/STEAMnasium_2023/Stations/tessellations.jpg);
+	background-image: url(../img/STEAMnasium_2023/Station5/tele.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
 
 .header_pink{
-	background-image: url(../img/STEAMnasium_2023/Stations/Elementary_STEAM.png);
+	background-image: url(../img/STEAMnasium_2023/Station6/Elementary_STEAM.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
