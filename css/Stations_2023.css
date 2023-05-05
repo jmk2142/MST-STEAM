@@ -89,6 +89,7 @@ h4{
 .station_image{
     display: block;
     margin: 0 auto;
+    padding: 20px;
 }
 
 /* Image grid code */
@@ -129,9 +130,6 @@ h4{
 .red_station a:hover {
     color: #f55d5d;
     text-decoration: underline;
-}
-.red_station h4{
-    text-align: center;
 }
 
 .orange_station{
@@ -219,13 +217,13 @@ h4{
 } */
 
 .header_purple{
-	background-image: url(../img/STEAMnasium_2023/Station5/tele.png);
+	background-image: url(../img/STEAMnasium_2023_JPGs/tele000.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
 
 .header_pink{
-	background-image: url(../img/STEAMnasium_2023/Station6/Elementary_STEAM.png);
+	background-image: url(../img/STEAMnasium_2023_JPGs/Elementary_STEAM000.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
